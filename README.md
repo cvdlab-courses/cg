@@ -8,6 +8,7 @@ Computational Graphics Lessons
 - [2012-03-16-a](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-16-a/2012-03-16-a.pdf)
 - [2012-03-16-b](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-16-b/2012-03-16-b.pdf)
 - [2012-03-20](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-20/2012-03-20.pdf)
+- [2012-03-27](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-27/2012-03-27.pdf)
 
 ### Author
 
@@ -15,8 +16,8 @@ Computational Graphics Lessons
 
 ### Collaborators
 
-- [Enrico Marino](http://onirame.no.de) / [@onirame](https://twitter.com/#!/onirame)
-- [Federico Spini](http://spini.no.de) / [@federicospini](https://twitter.com/#!/federicospini)
+- [Enrico Marino](http://onirame.no.de)
+- [Federico Spini](http://spini.no.de)
 
 ## License
 
