@@ -59,7 +59,7 @@ var frames = STRUCT([
 	frameGroup(3,colors[2]), T([0])([3*2.4]),
 	frameGroup(3,colors[3]), T([0])([3*2.4]), T([0])([0.3]),
 	frameGroup(3,colors[4]), T([0])([3*2.4]),
-	frameGroup(2,[1,1,1]) 
+	frameGroup(3,colors[5])
 ]);
 
 var backFrames = T([1])([14.7])(S([1])([-1])(frames));
