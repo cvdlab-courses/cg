@@ -10,6 +10,8 @@ Computational Graphics Lessons
 - [2012-03-20](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-20/2012-03-20.pdf)
 - [2012-03-27](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-03-27/2012-03-27.pdf)
 - [2012-04-02](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-04-02/2012-04-02.js)
+- [2012-04-13-a](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-04-13-a/2012-04-13a.pdf)
+- [2012-04-13-b](https://github.com/cvd-lab/cg-lessons/blob/master/lessons/2012-04-13-b/2012-04-13b.pdf)
 
 ### Author
 
