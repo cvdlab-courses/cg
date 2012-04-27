@@ -5,7 +5,7 @@ download `plasm.js` in your local machine
 write your code in `test/test.js` and open `test/index.html`
 
 ## Exercise 1
-#### `POLYLINE`, **`EXTRUDE`**, `COLOR`
+#### `POLYLINE`, `EXTRUDE`, `COLOR`
 
 draw the plant of the following labyrint using `POLYLINE`  
 raise the walls using `EXTRUDE`  
