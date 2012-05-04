@@ -16,6 +16,7 @@ Computational Graphics Lessons
 - [2012-04-23](https://github.com/cvdlab/cg-lessons/blob/master/lessons/2012-04-23/2012-04-23.pdf)
 - [2012-04-24](https://github.com/cvdlab/cg-lessons/blob/master/lessons/2012-04-24/2012-04-24.pdf)
 - [2012-04-27](https://github.com/cvdlab/cg-lessons/blob/master/lessons/2012-04-27/Readme.md)
+- [2012-05-04](https://github.com/cvdlab/cg-lessons/blob/master/lessons/2012-05-04/Readme.md)
 
 ### Author
 
