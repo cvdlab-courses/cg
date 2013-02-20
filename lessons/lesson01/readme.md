@@ -1,4 +1,5 @@
-# Lesson 1 – 04-02-2013
+# Lesson 1 
+`04-02-2013`
 
 ### Requirements
 
