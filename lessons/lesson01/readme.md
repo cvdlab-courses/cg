@@ -1,10 +1,10 @@
-## Lesson 1 (04-02-2013)
+# Lesson 1 – 04-02-2013
 
-#### Requirements
+### Requirements
 
-none
+None
 
-### Arguments
+## Arguments
 
 * course introduction
 * why JavaScript
@@ -13,10 +13,10 @@ none
 * last year project showcase
 * GitHub introduction
 
-#### Assignments
+### Assignments
 
 * signup on github
 * install git
 * configure git and github
-* ask for membership for [facebook group](https://www.facebook.com/groups/cvdlab/):
+* ask for membership for [facebook group](https://www.facebook.com/groups/cvdlab/)
 * bring your laptop
