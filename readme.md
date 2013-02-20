@@ -4,6 +4,7 @@
 * [Lesson 2](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/readme.md) (05-03-2013)
 * [Lesson 3](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson03/readme.md) (07-03-2013)
 * [Lesson 4](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson04/readme.md) (08-03-2013)
+* [Lesson 5](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson05/readme.md) (xx-03-2013)
 
 ### Teacher
 
