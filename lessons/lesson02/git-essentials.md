@@ -85,8 +85,6 @@ To send those changes to your remote repository, execute
 > git push origin master
 ```
 
-Change master to whatever branch you want to push your changes to.
-
 Now you are able to push your changes to the selected remote server.
 
 - - -
