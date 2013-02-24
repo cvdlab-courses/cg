@@ -10,7 +10,7 @@
 
 ## Arguments
 
-* [git essentials](https://github.com/cvdlab/git-crumbs)
+* [git essentials]() - ([and more](https://github.com/cvdlab/git-crumbs))
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
 * JavaScript first steps
