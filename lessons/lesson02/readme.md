@@ -1,25 +1,25 @@
 # Lesson 2
 `05-03-2013`
 
-### Requirements
+## Requirements
 
 * laptop
 * github account
 * git and github configured
 * membership facebook group
 
-## Arguments
+## Topics
 
-* [git essentials](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md) - ([and more](https://github.com/cvdlab/git-crumbs))
+* git essentials ([handbook](https://github.com/cvdlab/git-crumbs), [slides](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md))
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
 * JavaScript first steps
-  - [syntax](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/syntax/Readme.md)
-  - [types](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/types/Readme.md)
-  - [operator](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md)
-  - [statements](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/statements/Readme.md)
+  - syntax ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/syntax/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/syntax/Readme.md))
+  - types ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/types/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/types/Readme.md))
+  - operators ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/operators/Readme.md))
+  - statements ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/statements/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/statements/Readme.md))
 
-### Assignments:
+## Assignments:
 
 * add your StudetID/GitHub username to [github shared doc](https://www.facebook.com/groups/cvdlab/doc/329098417190610/) on facebook group
 * exercise00:
