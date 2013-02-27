@@ -10,7 +10,7 @@
 
 ## Topics
 
-* git essentials ([handbook](https://github.com/cvdlab/git-crumbs), [slides](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md))
+* git essentials ([handbook](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [slides](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md))
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
 * JavaScript first steps
