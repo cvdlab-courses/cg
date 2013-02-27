@@ -9,7 +9,7 @@
 
 * course introduction
 * last year project showcase
-* JavaScript introduction
+* JavaScript introduction ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/introduction/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/introduction/Readme.md))
 * GitHub introduction
 
 ## Assignments
