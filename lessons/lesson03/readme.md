@@ -13,3 +13,41 @@
   - objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/objects/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/objects/Readme.md))
 
 ## Assignments
+
+###exercise00
+
+try to understand what happens in here:
+
+```js
+function greets () {
+ console.log('Hello!');
+ greets = function () {
+   console.log('Bye!');
+   return greets;
+ };
+ return greets;
+}
+
+greets();
+
+greets()();
+
+greets()()();
+```
+
+```js
+function greets () {
+ console.log('Hello!');
+ var greets = function () {
+   console.log('Bye!');
+   return greets;
+ };
+ return greets;
+}
+
+greets();
+
+greets()();
+
+greets()()();
+```
