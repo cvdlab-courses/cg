@@ -13,7 +13,7 @@
 * git essentials ([handbook](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [slides](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md))
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
-* JavaScript first steps
+* JavaScript crumbs
   - syntax ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/syntax/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/syntax/Readme.md))
   - types ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/types/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/types/Readme.md))
   - operators ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/operators/Readme.md))
