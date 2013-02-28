@@ -54,14 +54,7 @@ greets()()();
 
 ### exercise01
 
-define a function
-
-```
-function identity(n) {...}
-```
-
-that returns the identity matrix composed by `n` rows by `n` columns
-
+define a function that returns the `n` rows by `n` columns identity matrix
 
 ### exercise02
 
