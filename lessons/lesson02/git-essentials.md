@@ -27,12 +27,6 @@ Your local repository consists of three "trees" maintained by git:
 * the `Index` which acts as a staging area
 * the `HEAD` which points to the last commit you've made
 
-- - -
-
-# git essentials
-
-## workflow
-
 ![trees](https://github.com/cvdlab/git-crumbs/raw/master/git/images/trees.png "trees")
 
 - - -
