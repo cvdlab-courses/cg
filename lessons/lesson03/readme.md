@@ -63,7 +63,8 @@ A point should be described by its x and y coordinates.
 
 ### exercise03
 
-define a constructor function to create a Trinagle object.
-A triangle should be described by its vertices, which are points.
+define a constructor function to create a Trinagle object.  
+A triangle should be described by its vertices, which are points.  
+A triangle object should compute its own area.
 
 
