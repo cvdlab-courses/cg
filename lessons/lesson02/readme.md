@@ -19,15 +19,17 @@
   - operators ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/operators/Readme.md))
   - statements ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/statements/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/statements/Readme.md))
 
-## Assignments:
+## Assignments
 
 * add your StudetID/GitHub username to [github shared doc](https://www.facebook.com/groups/cvdlab/doc/329098417190610/) on facebook group
-* exercise00:
-  - create a personal repository named `learning-javascript`
-  - create `index.html` file into folder `<yyyy-mm-dd>`
-  - commit it and push it
 
-* exercise01:
+### exercise00
+
+- create a personal repository named `learning-javascript`
+- create `index.html` file into folder `<yyyy-mm-dd>`
+- commit it and push it
+
+### exercise01:
 
 write a script `exercise01.js` that prints in console the following multiplication table,
 then commit it and push it:
@@ -43,7 +45,7 @@ then commit it and push it:
      9  18  27  36  45  54  63  72  81  90
     10  20  30  40  50  60  70  80  90  100
 
-* exercise02:
+### exercise02:
 
 write a script `exercise02.js` that prints in console the following multiplication table,
 then commit it and push it:
@@ -59,7 +61,7 @@ then commit it and push it:
      9, 18, 27, 36, 45, 54, 63, 72, 81, 90
     10, 20, 30, 40, 50, 60, 70, 80, 90, 100
 
-* exercise03:
+### exercise03:
 
 write a script `exercise03.js` that prints in console the following identity matrix,
 then commit it and push it:
