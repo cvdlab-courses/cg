@@ -21,8 +21,6 @@
 
 ## Assignments
 
-* add your StudetID/GitHub username to [github shared doc](https://www.facebook.com/groups/cvdlab/doc/329098417190610/) on facebook group
-
 ### exercise00
 
 - create a personal repository named `learning-javascript`
