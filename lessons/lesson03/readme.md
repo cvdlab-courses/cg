@@ -5,11 +5,11 @@
 
 * laptop
 
-## Arguments
+## Topics
 
 * exercise review
 * JavaScript language
-  - Functions ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/functions/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/functions/Readme.md))
-  - Objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/objects/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/objects/Readme.md))
+  - functions ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/functions/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/functions/Readme.md))
+  - objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/objects/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/objects/Readme.md))
 
 ## Assignments
