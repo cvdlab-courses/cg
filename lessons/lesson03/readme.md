@@ -51,3 +51,18 @@ greets()();
 
 greets()()();
 ```
+
+
+
+
+### exercise01
+
+define a constructor function to create a 2DPoint object.  
+A point should be described by its x and y coordinates.
+
+### exercise02
+
+define a constructor function to create a Trinagle object.
+A triangle should be described by its vertices, which are points.
+
+
