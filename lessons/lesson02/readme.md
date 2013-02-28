@@ -27,7 +27,7 @@
 - create `index.html` file into folder `<yyyy-mm-dd>`
 - commit it and push it
 
-### exercise01:
+### exercise01
 
 write a script `exercise01.js` that prints in console the following multiplication table,
 then commit it and push it:
@@ -43,7 +43,7 @@ then commit it and push it:
      9  18  27  36  45  54  63  72  81  90
     10  20  30  40  50  60  70  80  90  100
 
-### exercise02:
+### exercise02
 
 write a script `exercise02.js` that prints in console the following multiplication table,
 then commit it and push it:
@@ -59,7 +59,7 @@ then commit it and push it:
      9, 18, 27, 36, 45, 54, 63, 72, 81, 90
     10, 20, 30, 40, 50, 60, 70, 80, 90, 100
 
-### exercise03:
+### exercise03
 
 write a script `exercise03.js` that prints in console the following identity matrix,
 then commit it and push it:
