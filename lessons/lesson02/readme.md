@@ -5,12 +5,12 @@
 
 * laptop
 * github account
-* git and github configured
-* membership facebook group
+* git and GitHub configured
+* [facebook group](https://www.facebook.com/groups/cvdlab/) membership
 
 ## Topics
 
-* git essentials ([handbook](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [slides](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson02/git-essentials.md))
+* git essentials ([handbook](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [slides](git-essentials.md))
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
 * JavaScript crumbs
