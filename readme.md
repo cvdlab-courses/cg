@@ -1,5 +1,7 @@
 # Computational Graphics Lessons
 
+#### [Syllabus](https://github.com/cvdlab-cg/lessons/blob/master/syllabus/readme.md)
+
 ## JavaScript crumbs
 
 * [Lesson 1](https://github.com/cvdlab-cg/lessons/blob/master/lessons/lesson01/readme.md) (04-02-2013)
