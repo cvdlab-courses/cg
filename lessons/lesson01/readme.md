@@ -8,7 +8,7 @@
 ## Topics
 
 * course introduction
-* last year project [showcase](http://cvdlab.github.com/plasm.js/showcase.html#/category/villas)
+* last year projects [showcase](http://cvdlab.github.com/plasm.js/showcase.html#/category/villas)
 * JavaScript crumbs
     - introduction ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/introduction/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/introduction/Readme.md))
 * GitHub introduction
