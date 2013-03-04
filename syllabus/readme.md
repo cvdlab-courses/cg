@@ -1,5 +1,4 @@
-% Computational Graphics -- Syllabus
-% March 4, 2013
+# Computational Graphics -- Syllabus
 
 
 # Teachers
@@ -15,20 +14,14 @@ The course aims to develop the skill needed to (a) produce geometric models of  
 # Scheduling
 
 + Lectures From Monday, Mar 4, 2013 to  Friday, Jun 7, 2013
-
-  -------------       -------------       -------------        -------------
-      Monday             Tuesday            Thursday              Friday
-  -------------       -------------       -------------        -------------
-       9:45                9:45               9:45                 9:45
-  -------------       -------------       -------------        -------------
-
++ Monday, Tuesday, Thursday, Friday, 11:30 -> 13:00
 + Room N3
 + Student evaluation:
-  - Test 1: Fri, Apr 5, 2012  (7 points)
-  - Test 2: Fri, May 3, 2012  (7 points)
-  - Test 3: Fri, Jun 7, 2012  (7 points)
-  - Project deadline: Fri, Jun 14, 2013  (10 points)
-  - Final exam: project discussion & oral questions
+  - Test 1: Fri, Apr 5, 2013  (7 points)
+  - Test 2: Fri, May 3, 2013  (7 points)
+  - Test 3: Fri, Jun 7, 2013  (7 points)
++ Project deadline: Fri, Jun 14, 2013  (10 points)
++ Final exam: project discussion & oral questions
 
 
 ##
@@ -79,9 +72,9 @@ Each student is required to design and implement a personal project in the area 
 
 # Teaching materials
 
-(@) Lecture notes, examples, and exercises: [https://github.com/cvdlab-cg/](https://github.com/cvdlab-cg/)
-(@) [http://www.plasm.net](http://www.plasm.net)
-(@) A. Paoluzzi, [Geometric Programming for Computer-Aided Design](http://onlinelibrary.wiley.com/book/10.1002/0470013885), Wiley, 2003.
+1. Lecture notes, examples, and exercises: [https://github.com/cvdlab-cg/](https://github.com/cvdlab-cg/)  
+2. [http://www.plasm.net](http://www.plasm.net)  
+3. A. Paoluzzi, [Geometric Programming for Computer-Aided Design](http://onlinelibrary.wiley.com/book/10.1002/0470013885), Wiley, 2003.
 
 
 
