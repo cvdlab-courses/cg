@@ -1,7 +1,5 @@
 # git essentials
 
-## the simplest git workflow
-
 - - -
 # git essentials
 
