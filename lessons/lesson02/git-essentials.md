@@ -1,9 +1,9 @@
 # git essentials
 
 - - -
-# git essentials
+## git essentials
 
-## create a new repository
+### create a new repository
 
 create a new repository on github and follow instruction for the first push.
 
@@ -15,9 +15,9 @@ To clone it on your machine
 
 - - -
 
-# git essentials
+## git essentials
 
-## workflow
+### workflow
 
 Your local repository consists of three "trees" maintained by git:
 
@@ -29,11 +29,11 @@ Your local repository consists of three "trees" maintained by git:
 
 - - -
 
-# git essentials
+## git essentials
 
-## workflow
+### workflow
 
-### add & commit
+#### add & commit
 
 To propose changes (add it to the **Index**) use
 
@@ -49,9 +49,9 @@ This is the first step in the basic git workflow.
 
 - - -
 
-# git essentials
+## git essentials
 
-## workflow
+### workflow
 
 To actually commit these changes use
 
@@ -63,12 +63,12 @@ Now the file is committed to the **HEAD**, but not in your remote repository yet
 
 - - -
 
-# git essentials
+## git essentials
 
-## workflow
+### workflow
 
 
-### pushing changes
+#### pushing changes
 
 Your changes are now in the **HEAD** of your local working copy.
 To send those changes to your remote repository, execute
@@ -81,9 +81,9 @@ Now you are able to push your changes to the selected remote server.
 
 - - -
 
-# git essentials
+## git essentials
 
-## summarizing
+### summarizing
 
 create a repo on github and follow instruction
 
@@ -113,9 +113,9 @@ push changes
 
 - - -
 
-# git essentials
+## git essentials
 
-## update
+### update
 
 To update your local repository to the newest commit, execute
 
