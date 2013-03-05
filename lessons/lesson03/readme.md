@@ -15,7 +15,7 @@
 
 ## Assignments
 
-###exercise00
+###exercise00a
 
 try to understand what happens in here:
 
@@ -53,23 +53,31 @@ greets()();
 greets()()();
 ```
 
+### exercise00b
+
+- create (or use an existing) personal repository named `learning-javascript`
+- create `index.html` file into folder `<yyyy-mm-dd>`
+- commit it and push it
+
 ### exercise01
 
-define a function `identity(n)` that returns the `n` rows by `n` columns identity matrix
+write a script `exercise01.js` containing a function `identity(n)`  
+that returns the `n` rows by `n` columns identity matrix
 
 ### exercise02
 
-define a function `fibonacci(i)` that returns the i-th element of the Fibonacci's serie (apply memoization pattern)
+write a script `exercise02.js` containing a function `fibonacci(i)`   
+that returns the i-th element of the Fibonacci's serie (apply memoization pattern)
 
 ### exercise03
 
-define a constructor function to create a 2DPoint object.
-A point should be described by its x and y coordinates.
+write a script `exercise03.js` containing a constructor function for a 2DPoint object.
+A point should be described by its `x` and `y` coordinates.
 
 ### exercise04
 
-define a constructor function to create a Trinagle object.
+write a script `exercise03.js` containing a constructor function for a Trinagle object.
 A triangle should be described by its vertices, which are points.
-A triangle object should compute its own area.
+A triangle object should be able to compute its own area.
 
 
