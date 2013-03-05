@@ -14,10 +14,10 @@
 * HTML5 + JS environment
 * project: `"hello JavaScript"`
 * JavaScript crumbs
-  - syntax ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/syntax/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/syntax/Readme.md))
-  - types ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/types/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/types/Readme.md))
-  - operators ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/operators/Readme.md))
-  - statements ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/statements/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/statements/Readme.md))
+  - syntax ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/syntax/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/syntax/Readme.md))
+  - types ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/types/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/types/Readme.md))
+  - operators ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/operators/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/operators/Readme.md))
+  - statements ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/statements/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/statements/Readme.md))
 
 ## Assignments
 
