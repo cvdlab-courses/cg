@@ -54,14 +54,18 @@ greets()()();
 
 ### exercise01
 
-define a function that returns the `n` rows by `n` columns identity matrix
+define a function `identity(n)` that returns the `n` rows by `n` columns identity matrix
 
 ### exercise02
+
+define a function `fibonacci(i)` that returns the i-th element of the Fibonacci's serie (apply memoization pattern)
+
+### exercise03
 
 define a constructor function to create a 2DPoint object.
 A point should be described by its x and y coordinates.
 
-### exercise03
+### exercise04
 
 define a constructor function to create a Trinagle object.
 A triangle should be described by its vertices, which are points.
