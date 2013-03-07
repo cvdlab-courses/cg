@@ -9,7 +9,7 @@
 
 * exercise review
 * JavaScript language
-  - [Built-in objects](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/built-in/Readme.md)
+  - [Built-in objects](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/built-ins/Readme.md)
       - Array
       - String
       - Number
