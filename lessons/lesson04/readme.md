@@ -18,13 +18,7 @@
       - RegExp
 
 ### Assignments
-
-### exercise00
-
-- create (or use an existing) personal repository named `learning-javascript`
-- create `index.html` file into folder `<yyyy-mm-dd>`
-- commit it and push it
-
+push your exercises in the usual folder named `<yyyy-mm-dd>`
 
 ### exercise01
 
