@@ -71,13 +71,18 @@ that returns the i-th element of the Fibonacci's serie (apply memoization patter
 
 ### exercise03
 
-write a script `exercise03.js` containing a constructor function for a 2DPoint object.
+write a script `exercise03.js` containing a constructor function for a 2DPoint object.  
 A point should be described by its `x` and `y` coordinates.
 
 ### exercise04
 
-write a script `exercise03.js` containing a constructor function for a Trinagle object.
-A triangle should be described by its vertices, which are points.
-A triangle object should be able to compute its own area.
+write a script `exercise04.js` containing a contructor function for a Side object.  
+a side should be described by its two vertices (i.e. two points).
+
+### exercise05
+
+write a script `exercise05.js` containing a constructor function for a Trinagle object.  
+A triangle should be described by its three sides.  
+A triangle object should be able to compute its own perimeter and area (do you remeber the Erone's formula?).
 
 
