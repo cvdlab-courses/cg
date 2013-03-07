@@ -4,9 +4,10 @@
 
 ## JavaScript crumbs
 
-* [Lesson 1](lessons/lesson01/readme.md) (04-02-2013)
-* [Lesson 2](lessons/lesson02/readme.md) (05-03-2013)
-* [Lesson 3](lessons/lesson03/readme.md) (07-03-2013)
+* [Lesson 1](lessons/lesson01/readme.md) (2013-03-04)
+* [Lesson 2](lessons/lesson02/readme.md) (2013-03-05)
+* [Lesson 3](lessons/lesson03/readme.md) (2013-03-07)
+* [Lesson 4](lessons/lesson04/readme.md) (2013-03-08)
 
 ### Teacher
 
