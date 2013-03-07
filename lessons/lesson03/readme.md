@@ -77,7 +77,8 @@ A point should be described by its `x` and `y` coordinates.
 ### exercise04
 
 write a script `exercise04.js` containing a contructor function for a Side object.  
-a side should be described by its two vertices (i.e. two points).
+A side should be described by its two vertices (i.e. two points).
+A side should be able to compute its own length.
 
 ### exercise05
 
