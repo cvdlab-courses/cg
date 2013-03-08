@@ -73,7 +73,7 @@ write a function that capitalize each word of the following text:
 
 ### exercise04
 
-write a script `exercise01.js` which contains a function `select(data, key, values)` that given an array of objects `data`, a string `key` and an array of values `values`, returns the array of objects where the property `key` is equal to one of the values in `values`. For example:
+write a function `select(data, key, values)` that given an array of objects `data`, a string `key` and an array of values `values`, returns the array of objects where the property `key` is equal to one of the values in `values`. For example:
 
 ```js
 var data = [
