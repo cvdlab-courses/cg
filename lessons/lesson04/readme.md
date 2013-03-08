@@ -18,7 +18,7 @@
       - RegExp
 
 ### Assignments
-push your exercises in the usual folder named `<yyyy-mm-dd>`
+push your exercises in a folder named `<yyyy-mm-dd>`, as usual
 
 ### exercise01
 
