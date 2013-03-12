@@ -8,6 +8,9 @@
 * [Lesson 2](lessons/lesson02/readme.md) (2013-03-05)
 * [Lesson 3](lessons/lesson03/readme.md) (2013-03-07)
 * [Lesson 4](lessons/lesson04/readme.md) (2013-03-08)
+
+## Introduction to Geometric Programming 
+
 * [Lesson 5](lessons/lesson05/lesson05.pdf) (2013-03-11)
 
 ### Teacher
