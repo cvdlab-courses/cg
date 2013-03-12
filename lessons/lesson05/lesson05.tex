@@ -1,0 +1,383 @@
+\documentclass[ignorenonframetext,]{beamer}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+\usepackage{listings}
+\usepackage{url}
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+%----macros begin-----------------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\newcommand{\Alert}[1]{{\color{cyan}#1}}
+
+
+%\renewenvironment{Shaded}{\pause\begin{snugshade}}{\end{snugshade}}
+\def\twocolumns#1#2{\begin{columns}
+\begin{column}{0.5\linewidth}#1\end{column}
+\begin{column}{0.5\linewidth}#2\end{column}
+\end{columns}}
+\def\mytwocolumns#1#2#3#4{\begin{columns}
+\begin{column}{#1\linewidth}#2\end{column}
+\begin{column}{#3\linewidth}#4\end{column}
+\end{columns}}
+\def\mythreecolumns#1#2#3#4#5#6{\begin{columns}
+\begin{column}{#1\linewidth}#2\end{column}
+\begin{column}{#3\linewidth}#4\end{column}
+\begin{column}{#5\linewidth}#6\end{column}
+\end{columns}}
+\def\threecolumns#1#2#3{\begin{columns}
+\begin{column}{0.33\linewidth}#1\end{column}
+\begin{column}{0.33\linewidth}#2\end{column}
+\begin{column}{0.33\linewidth}#3\end{column}
+\end{columns}}
+\def\fourcolumns#1#2#3#4{\begin{columns}%
+\begin{column}{0.25\linewidth}#1\end{column}%
+\begin{column}{0.25\linewidth}#2\end{column}%
+\begin{column}{0.25\linewidth}#3\end{column}%
+\begin{column}{0.25\linewidth}#4\end{column}%
+\end{columns}}
+
+\def\textbf#1{\alert{#1}}
+\def\emph#1{{\color{cyan}#1}}
+\def\conv{\mbox{\textrm{conv}\,}}
+\def\aff{\mbox{\textrm{aff}\,}}
+\def\E{\mathbb{E}}
+\def\R{\mathbb{R}}
+\def\Z{\mathbb{Z}}
+\def\N{\mathbb{N}}
+\def\v#1{{\bf #1}}
+\def\p#1{{\bf #1}}
+\def\T#1{{\bf #1}}
+\def\vet#1{{\left(\begin{array}{cccccccccccccccccccc}#1\end{array}\right)}}
+\def\mat#1{{\left(\begin{array}{cccccccccccccccccccc}#1\end{array}\right)}}
+
+\def\lin{\mbox{\rm lin}\,}
+\def\aff{\mbox{\rm aff}\,}
+\def\pos{\mbox{\rm pos}\,}
+\def\cone{\mbox{\rm cone}\,}
+\def\conv{\mbox{\rm conv}\,}
+\newcommand{\homog}[0]{\mbox{\rm homog}\,}
+\newcommand{\relint}[0]{\mbox{\rm relint}\,}
+
+%------------------------------------------------------------
+%------------------------------------------------------------
+\usepackage{color}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{setspace}
+%\usepackage{palatino}
+\renewcommand{\lstlistlistingname}{python}
+\renewcommand{\lstlistingname}{python}
+\definecolor{gray}{gray}{0.5}
+\definecolor{green}{rgb}{0,0.5,0}
+\definecolor{myblue}{rgb}{0.6,0.8,1}
+%-------------------------------------------------------------------------------------
+\definecolor{lbcolor}{rgb}{0.97,0.97,0.97}
+\lstnewenvironment{python}[1][]{
+\lstset{
+language=python,
+basicstyle=\ttfamily\scriptsize\setstretch{1},
+stringstyle=\color{red},
+showstringspaces=false,
+alsoletter={1234567890},
+otherkeywords={\ , \}, \{},
+keywordstyle=\color{blue},
+emph={access,and,break,class,continue,def,del,elif ,else,%
+except,exec,finally,for,from,global,if,import,in,i s,%
+lambda,not,or,pass,print,raise,return,try,while},
+emphstyle=\color{black}\bfseries,
+emph={[2]True, False, None, self},
+emphstyle=[2]\color{green},
+emph={[3]from, import, as},
+emphstyle=[3]\color{blue},
+upquote=true,
+morecomment=[s]{"""}{"""},
+commentstyle=\color{green}\slshape,
+%emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
+emphstyle=[4]\color{blue},
+literate=*{:}{{\textcolor{blue}:}}{1}%
+{=}{{\textcolor{blue}=}}{1}%
+{-}{{\textcolor{blue}-}}{1}%
+{+}{{\textcolor{blue}+}}{1}%
+{*}{{\textcolor{blue}*}}{1}%
+{!}{{\textcolor{blue}!}}{1}%
+{(}{{\textcolor{blue}(}}{1}%
+{)}{{\textcolor{blue})}}{1}%
+{[}{{\textcolor{blue}[}}{1}%
+{]}{{\textcolor{blue}]}}{1}%
+{<}{{\textcolor{blue}<}}{1}%
+{>}{{\textcolor{blue}>}}{1},%
+backgroundcolor=\color{lbcolor},rulecolor=,
+frame=tb,
+framexleftmargin=1mm, framextopmargin=1mm, rulesepcolor=\color{blue},#1
+}}{}
+%-------------------------------------------------------------------------------------
+\beamerdefaultoverlayspecification{<+->}
+%----macros end-----------------------------------------------------------------------------------
+
+\title{Introduction to Python and pyPLaSM}
+\author{Computational Visual Design Laboratory (\url{https://github.com/cvlab})
+                ``Roma Tre'' University, Italy}
+\date{Computational Graphics -- Lecture 5 -- March 11, 2013}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+
+\tableofcontents
+
+\end{frame}
+
+\section{Starting Python}
+
+\begin{frame}\frametitle{Install Python, Scipy, and pyOpenGL}
+
+\begin{itemize}
+\item
+  \href{http://python.org/about/}{\emph{About Python}}
+\item
+  \href{http://scipy-lectures.github.com/}{\emph{Python Scientific
+  Lecture Notes}}
+\item
+  \href{http://docs.python.org/2/tutorial/}{\emph{The Python Tutorial}}
+\item
+  \href{http://pyopengl.sourceforge.net/}{\emph{PyOpenGL: The Python
+  OpenGL Binding}}
+\item
+  \href{http://jakevdp.github.com/blog/2012/09/20/why-python-is-the-last/}{\emph{Why
+  Python Is the Last Language You'll Have to Learn}}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{Install IPython as your IDE}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{http://ipython.org/}{\emph{The official IPython site}}
+\end{itemize}
+
+\vfill
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{http://ipython.org/ipython-doc/stable/interactive/tutorial.html}{\emph{Introducing
+  IPython}}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{Getting started}
+
+\begin{python}
+paoluzzi$ ipython
+Python 2.7.2 (default, Jun 20 2012, 16:23:33) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.14.dev -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: 
+\end{python}
+
+\end{frame}
+
+\section{Geometric Programming}
+
+\begin{frame}\frametitle{The design language PLaSM}
+
+The design language PLaSM is a geometry-oriented extension of a subset
+of FL.
+
+\small
+
+\begin{block}{FL Language}
+
+\href{http://en.wikipedia.org/wiki/FL_programming_language}{\emph{FL
+(programming at Function Level)}} is a language developed by the
+Functional Programming Group of IBM Research Division at Almaden (USA)
+{[}@BWW90, @BWWLA89{]}. The FL language, on the line of the Backus'
+Turing lecture {[}Backus78{]} introduces an algebra over programs and
+has an awesome expressive power.
+
+\end{block}
+
+\begin{block}{PLaSM Language}
+
+\href{http://plasm.net/}{\emph{PLaSM, (the Programming LAnguage for
+Solid Modeling)}} is a ``design language'' for geometric and solid
+parametric design, developed by the CAD Group at the Universities ``La
+Sapienza'' and ``Roma Tre'' {[}PS92, PPV95{]}. The language is strongly
+inFLuenced by FL. With few sintactical differences, it can be considered
+a geometric extension of a FL subset.
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}\frametitle{PLaSM Language}
+
+\begin{columns}
+\begin{column}{5cm}
+
+\begin{thebibliography}{}
+
+\bibitem[Paoluzzi {\em et~al.}, 1995]{plasm}
+Paoluzzi, A., Pascucci, V.  \& Vicentino, M. (1995{\em{}}).
+\newblock \href{http://dl.acm.org/citation.cfm?id=212349}{Geometric programming: a programming approach to geometric design}.
+\newblock {\em {ACM} Trans. Graph.} {\bf 14} (3), 266--306.
+
+\end{thebibliography}
+
+\end{column}
+\begin{column}{5cm}
+   \centering
+   \href{http://onlinelibrary.wiley.com/book/10.1002/0470013885}{\includegraphics[width=0.8\linewidth]{Paoluzzi}}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}\frametitle{Motivations for a Python port of PLaSM}
+
+\begin{itemize}[<+->]
+  \vfill \item Python: \Alert{multi-paradigm language} with efficient built-in data structures and simple/effective approach to OO programming.    
+       
+  \vfill \item Python's elegant syntax and dynamic typing, and its interpreted nature, make it ideal for \Alert{scripting} and \Alert{RAD}
+      
+  \vfill \item We wished for easy access to \Alert{Biopython}, \Alert{NumPy}, \Alert{SciPy}, \Alert{Femhub}, and the geometry libraries already interfaced with Python      
+  \end{itemize}
+
+\begin{alertblock}<+->{The easiest solution?}
+   \Alert{Pyplasm}: Plasm $\rightarrow$ Python
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{First pyplasm tests}
+
+generate and view a geometric object (hpc type) in pyplasm
+
+\begin{python}
+In [1]: from pyplasm import *
+Evaluating fenvs.py..
+...fenvs.py imported in 0.006975 seconds
+
+In [2]: VIEW(CUBOID([1,4,9]))
+\end{python}
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{First pyplasm tests}
+
+\begin{python}
+from pyplasm import *
+VIEW(CUBOID([1,4,9]))
+VIEW(COLOR(BLACK)(CUBOID([1,4,9])))
+\end{python}
+
+\lstinline!COLOR! is a \textbf{second order function}: needs TWO
+applications
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{First pyplasm tests}
+
+\begin{python}
+a = [[0,0],[4,2],[2.5,3],
+ [4,5],[2,5],[0,3],
+ [-3,3],[0,0]]
+VIEW(POLYLINE(a))
+\end{python}
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{First pyplasm tests}
+
+\begin{python}
+b = [[0,3],[0,1],[2,2],
+ [2,4],[0,3]]
+c = [[2,2],[1,3],[1,2],
+ [2,2]]
+AA(POLYLINE)([a,b,c])
+VIEW(STRUCT(AA(POLYLINE)([a,b,c])))
+
+polylines = AA(POLYLINE)([a,b,c])
+polygon = SOLIDIFY(STRUCT(polylines))
+VIEW(polygon)
+
+cells = SKELETON(1)(polygon)
+VIEW(cells)
+
+solid = PROD([polygon, Q(0.5)])
+VIEW(solid)
+
+solid = PROD([polygon, QUOTE([0.5,-2.5,0.5])])
+VIEW(solid)
+
+complement = DIFFERENCE([ BOX([1,2,3])(solid), solid ])
+VIEW(complement)
+\end{python}
+
+\end{frame}
+
+\begin{frame}\frametitle{Assignments}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  install python
+\item
+  install scipy
+\item
+  install pyplasm
+\item
+  explore \href{http://docs.python.org/2/tutorial/}{\emph{The Python
+  Tutorial}}
+\end{itemize}
+
+\end{frame}
+
+\end{document}
