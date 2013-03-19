@@ -9,7 +9,7 @@
 
 * exercise review
 * JavaScript crumbs
-  - Built-in objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/prototype/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/prototype/Readme.md))
+  - Built-in objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/built-ins/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/built-ins/Readme.md))
       - Array
       - String
       - Number
