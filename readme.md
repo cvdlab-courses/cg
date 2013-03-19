@@ -4,14 +4,15 @@
 
 ## JavaScript crumbs
 
-* [Lesson 1](lessons/lesson01/readme.md) (2013-03-04)
-* [Lesson 2](lessons/lesson02/readme.md) (2013-03-05)
-* [Lesson 3](lessons/lesson03/readme.md) (2013-03-07)
-* [Lesson 4](lessons/lesson04/readme.md) (2013-03-08)
+* [2013-03-04](lessons/2013-03-04/readme.md)
+* [2013-03-05](lessons/2013-03-05/readme.md)
+* [2013-03-07](lessons/2013-03-07/readme.md)
+* [2013-03-08](lessons/2013-03-08/readme.md)
+* [2013-03-21](lessons/2013-03-21/readme.md)
 
 ## Introduction to Geometric Programming 
 
-* [Lesson 5](lessons/lesson05/lesson05.pdf) (2013-03-11)
+* [2013-03-11](lessons/2013-03-11/lesson05.pdf)
 
 ### Teacher
 
