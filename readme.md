@@ -12,7 +12,7 @@
 
 ## Introduction to Geometric Programming 
 
-* [2013-03-11](lessons/2013-03-11/lesson05.pdf)
+* [2013-03-11](lessons/2013-03-11)
 
 ### Teacher
 
