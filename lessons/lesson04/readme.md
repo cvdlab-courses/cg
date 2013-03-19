@@ -8,8 +8,8 @@
 ## Arguments
 
 * exercise review
-* JavaScript language
-  - [Built-in objects](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/built-ins/Readme.md)
+* JavaScript crumbs
+  - Built-in objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/prototype/Readme.md), [slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/javascript-crumbs-slides/master/chapters/prototype/Readme.md))
       - Array
       - String
       - Number
