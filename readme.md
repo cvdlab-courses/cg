@@ -13,6 +13,11 @@
 ## Introduction to Geometric Programming 
 
 * [2013-03-11](lessons/2013-03-11)
+* [2013-03-12](lessons/2013-03-12)
+* [2013-03-14](lessons/2013-03-14)
+* [2013-03-15](lessons/2013-03-15)
+* [2013-03-18](lessons/2013-03-18)
+* [2013-03-19](lessons/2013-03-19)
 
 ### Teacher
 
