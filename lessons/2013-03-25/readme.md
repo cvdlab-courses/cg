@@ -11,21 +11,23 @@
 * Plasm.js crumbs
   - introduction ([slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/plasm-crumbs-slides/master/chapters/introduction/Readme.md))
   - basics ([slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/plasm-crumbs-slides/master/chapters/basics/Readme.md))
+      - `CUBE`
+      - `DRAW`
+      - `HIDE`
+      - `SHOW`
+      - `CUBOID`
+      - `SIMPLEX`
+      - `CYL_SURFACE`
+      - `SIMPLEX_GRID`
+      - `POLYLINE`
+      - `SIMPLICIAL_COMPLEX`
   - transformations ([slides](http://apily.io/slidify?md=https://raw.github.com/cvdlab/plasm-crumbs-slides/master/chapters/transformations/Readme.md))
-* Plasm.js primitives
-  - DRAW
-  - HIDE
-  - SHOW
-  - CUBE
-  - CUBOID
-  - T, R, S
-  - POLYLINE
-  - SIMPLICIAL_COMPLEX
-  - SIMPLEX_GRID
-  - STRUCT
-  - CYL_SURFACE
-  - EXTRUDE
-  - COLOR
+      - `T`
+      - `R`
+      - `S`
+      - `STRUCT`
+      - `EXTRUDE`
+      - `COLOR`
 
 ## Code snippets
 
