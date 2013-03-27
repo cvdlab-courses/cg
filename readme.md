@@ -19,6 +19,10 @@
 * [2013-03-18](lessons/2013-03-18)
 * [2013-03-19](lessons/2013-03-19)
 
+## Introduction to Geometric Programming 
+
+* [2013-03-26](lessons/2013-03-26)
+
 ### Teacher
 
 - [Alberto Paoluzzi](http://paoluzzi.dia.uniroma3.it/)
