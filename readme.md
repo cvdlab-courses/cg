@@ -13,6 +13,7 @@
 ## Plasm.js crumbs
 
 * [2013-03-25](lessons/2013-03-25/readme.md)
+* [2013-03-28](lessons/2013-03-28/readme.md)
 
 ## Introduction to Geometric Programming
 
