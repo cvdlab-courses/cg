@@ -27,6 +27,7 @@
 ## Affine transformations 
 
 * [2013-03-26](lessons/2013-03-26)
+* [2013-03-27](lessons/2013-03-27)
 
 ### Teacher
 
