@@ -9,11 +9,11 @@
 * exercise review
 * homework1 introduction 
 * Plasm.js
-  - adapter from [pyplasm](./pyplasm.js)
+  - adapting code from [pyplasm](./pyplasm.js)
   - modeling
       - [annulus sector](./annulus-sector.js) (using `MAP`)
       - [stairs ramp](./stairs-ramp.js) (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
-      - Maison Domino ([adapter](./domino-adapter.js), [pure](./domino-pure.js))
+      - Maison Domino ([adapted](./domino-adapter.js), [pure](./domino-pure.js))
 
 ## Assignments
 
