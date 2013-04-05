@@ -14,7 +14,7 @@
 
 * [2013-03-25](lessons/2013-03-25)
 * [2013-03-28](lessons/2013-03-28)
-* [2013-04-05](lessons/2013-04-05) (**new**)
+* **new** [2013-04-05](lessons/2013-04-05) 
 
 ## Introduction to Geometric Programming
 
