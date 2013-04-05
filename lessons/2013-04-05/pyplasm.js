@@ -42,4 +42,6 @@ S1 = S0;
 
 GRID = SIMPLEX_GRID;
 
+NN = REPLICA;
+
 VIEW = DRAW;
