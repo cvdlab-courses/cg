@@ -13,7 +13,7 @@
   - modeling
       - [annulus sector](./annulus-sector.js) (using `MAP`)
       - [stairs ramp](./stairs-ramp.js) (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
-      - Maison Domino ([adapted](./domino-adapter.js), [pure](./domino-pure.js))
+      - Maison Domino ([adapted](./domino-adapted.js), [pure](./domino-pure.js))
 
 ## Assignments
 
