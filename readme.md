@@ -4,16 +4,17 @@
 
 ## JavaScript crumbs
 
-* [2013-03-04](lessons/2013-03-04/readme.md)
-* [2013-03-05](lessons/2013-03-05/readme.md)
-* [2013-03-07](lessons/2013-03-07/readme.md)
-* [2013-03-08](lessons/2013-03-08/readme.md)
-* [2013-03-21](lessons/2013-03-21/readme.md)
+* [2013-03-04](lessons/2013-03-04)
+* [2013-03-05](lessons/2013-03-05)
+* [2013-03-07](lessons/2013-03-07)
+* [2013-03-08](lessons/2013-03-08)
+* [2013-03-21](lessons/2013-03-21)
 
 ## Plasm.js crumbs
 
-* [2013-03-25](lessons/2013-03-25/readme.md)
-* [2013-03-28](lessons/2013-03-28/readme.md)
+* [2013-03-25](lessons/2013-03-25)
+* [2013-03-28](lessons/2013-03-28)
+* [2013-04-05](lessons/2013-04-05)
 
 ## Introduction to Geometric Programming
 
@@ -29,7 +30,6 @@
 * [2013-03-26](lessons/2013-03-26)
 * [2013-03-27](lessons/2013-03-27)
 * [2013-04-04](lessons/2013-04-04)
-* [2013-04-05](lessons/2013-04-05)
 
 ### Teacher
 
