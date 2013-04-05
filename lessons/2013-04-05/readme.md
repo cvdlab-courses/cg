@@ -9,10 +9,11 @@
 * exercise review
 * homework1 introduction 
 * Plasm.js
-  - porting from pyplasm
+  - adapter from [pyplasm](./pyplasm.js)
   - modeling
-      - annulus sector (using `MAP`)
-      - stairs (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
+      - [annulus sector](./annulus-sector.js) (using `MAP`)
+      - [stairs ramp](./stairs-ramp.js) (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
+      - Maison Domino ([adapter](./domino-adapter.js), [pure](./domino-pure.js))
 
 ## Assignments
 
