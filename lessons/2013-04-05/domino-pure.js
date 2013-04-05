@@ -2,6 +2,7 @@ foundations = SIMPLEX_GRID([[8,-30,8,-30,8,-12,8],[8,-30,8],[6]])
 // DRAW(foundations)
 
 
+
 pillars = SIMPLEX_GRID([[-3,2,-36,2,-36,2,-18,2],[-3,2,-36,2],[-7.4,23.6,-1.4,23.6,-1.4]])
 building = STRUCT([foundations,pillars])
 // DRAW(building)
