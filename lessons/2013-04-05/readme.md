@@ -11,8 +11,8 @@
 * Plasm.js
   - porting from pyplasm
   - modeling
-    - annulus sector (using `MAP`)
-    - stairs (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
+      - annulus sector (using `MAP`)
+      - stairs (using `SIMPLICIAL_COMPLEX`, `EXTRUDE`, `T`, `R`, `REPLICA`, `STRUCT`)
 
 ## Assignments
 
