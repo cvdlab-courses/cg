@@ -75,7 +75,7 @@ Su0 = BEZIER(S1)([[0,0,0],[10,0,0]])
 Su1 = BEZIER(S1)([[0,10,0],[2.5,10,3],[5,10,-3],[7.5,10,3],[10,10,0]])
 S0v = BEZIER(S2)([[0,0,0],[0,0,3],[0,10,3],[0,10,0]])
 S1v = BEZIER(S2)([[10,0,0],[10,5,3],[10,10,0]])
-VIEW(MAP(COONSPATCH([Su0,Su1,S0v,S1v]))(PROD([INTERVALS(1)(10),INTERVALS(1)(10)])))
+VIEW(MAP(COONSPATCH([Su0,Su1,S0v,S1v]))(GRID([20,20])))
 
 
 
@@ -84,7 +84,7 @@ C0 = BEZIER(S1)([[0,0,0],[10,0,0]])
 C1 = BEZIER(S1)([[0,2,0],[8,3,0],[9,2,0]])
 C2 = BEZIER(S1)([[0,4,1],[7,5,-1],[8,5,1],[12,4,0]])
 C3 = BEZIER(S1)([[0,6,0],[9,6,3],[10,6,-1]])
-VIEW(MAP(BEZIER(S2)([C0,C1,C2,C3]))(Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))))
+VIEW(MAP(BEZIER(S2)([C0,C1,C2,C3]))(GRID([20,20])))
 
 
 
@@ -92,56 +92,60 @@ Su0=BEZIER(S1)([[0,0,0],[10,0,0]])
 Su1=BEZIER(S1)([[0,10,0],[2.5,10,3],[5,10,-3],[7.5,10,3],[10,10,0]])
 Sv0=BEZIER(S2)([[0,0,0],[0,0,3],[0,10,3],[0,10,0]])
 Sv1=BEZIER(S2)([[10,0,0],[10,5,3],[10,10,0]])
-VIEW(MAP(COONSPATCH([Su0,Su1,Sv0,Sv1]))(Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))))
+VIEW(MAP(COONSPATCH([Su0,Su1,Sv0,Sv1]))(GRID([20,20])))
 
 
 
 alpha= lambda point: [point[0],point[0],       0 ]
 beta = lambda point: [      -1,      +1,point[0] ]
-domain= T([1,2])([-1,-1])(Hpc.power(INTERVALS(2)(10),INTERVALS(2)(10)))
+domain= T([1,2])([-1,-1])(GRID([20,20]))
 VIEW(MAP(RULEDSURFACE([alpha,beta]))(domain))
 
 
 
 alpha=BEZIER(S1)([[0.1,0,0],[2,0,0],[0,0,4],[1,0,5]])
 beta =BEZIER(S2)([[0,0,0],[3,-0.5,0],[3,3.5,0],[0,3,0]])
-domain=PROD([INTERVALS(1)(20),INTERVALS(1)(20)])
+domain=GRID([20,20])
 VIEW(STRUCT([MAP(alpha)(domain),MAP(beta )(domain),MAP(PROFILEPRODSURFACE([alpha,beta]))(domain)]))
 
 
 
 profile=BEZIER(S1)([[0,0,0],[2,0,1],[3,0,4]]) # defined in xz!
-domain=Hpc.power(INTERVALS(1)(10),INTERVALS(2*PI)(30)) # the first interval should be in 0,1 for bezier
-VIEW(MAP(ROTATIONALSURFACE(profile))(domain))
+domain=GRID([12,40])
+VIEW(MAP(ROTATIONALSURFACE(profile))(S(2)(2*PI)(domain)))
 
 
 
 alpha=BEZIER(S1)([[1,1,0],[-1,1,0],[1,-1,0],[-1,-1,0]])
 Udomain=INTERVALS(1)(20)
 Vdomain=INTERVALS(1)(6)
-domain=Hpc.power(Udomain,Vdomain)
+domain=GRID([20,20])
 fn=CYLINDRICALSURFACE([alpha,[0,0,1]])
 VIEW(MAP(fn)(domain))
 
 
 
-domain=Hpc.power(INTERVALS(1)(20),INTERVALS(1)(6))
+domain=GRID([20,12])
 beta=BEZIER(S1)([ [1,1,0],[-1,1,0],[1,-1,0],[-1,-1,0] ])
 VIEW(MAP(CONICALSURFACE([[0,0,1],beta]))(domain))
 
 
 
-domain=INTERVALS(1)(20)
-VIEW(Hpc.Struct([MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -1, 1],[ 1,0]]))(domain),MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -2, 2],[ 2,0]]))(domain),MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -4, 4],[ 4,0]]))(domain),MAP(CUBICHERMITE(S1)([[1,0],[1,1],[-10,10],[10,0]]))(domain)]))
+domain1D=INTERVALS(1)(20)
+VIEW(STRUCT(
+	[MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -1, 1],[ 1,0]]))(domain),
+    MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -2, 2],[ 2,0]]))(domain1D),
+    MAP(CUBICHERMITE(S1)([[1,0],[1,1],[ -4, 4],[ 4,0]]))(domain1D),
+    MAP(CUBICHERMITE(S1)([[1,0],[1,1],[-10,10],[10,0]]))(domain1D)]))
+
+
+
 c1=CUBICHERMITE(S1)([[1  ,0,0],[0  ,1,0],[0,3,0],[-3,0,0]])
 c2=CUBICHERMITE(S1)([[0.5,0,0],[0,0.5,0],[0,1,0],[-1,0,0]])
 sur3=CUBICHERMITE(S2)([c1,c2,[1,1,1],[-1,-1,-1]])
-domain=Hpc.power(INTERVALS(1)(14),INTERVALS(1)(14))
+domain2D=GRID([20,12])
 VIEW(MAP(sur3)(domain))
 
-
-
-VIEW(SCHLEGEL3D(0.2)((T([1,2,3,4])([-1,-1,-1,1])(CUBOID([2,2,2,2])))))
 
 
 
@@ -153,35 +157,42 @@ VIEW(SPLINE(CUBICUBSPLINE(domain))(points))
 
 
 controlpoints=[[[0,0,0],[2,-4,2]],[[0,3,1],[4,0,0]]]
-domain=Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))
+domain=GRID([20,20])
 mapping=BILINEARSURFACE(controlpoints)
 VIEW(MAP(mapping)(domain))
 
 
 
 controlpoints=[[[0,0,0],[2,0,1],[3,1,1]],[[1,3,-1],[3,2,0],[4,2,0]],[[0,9,0],[2,5,1],[3,3,2]]]
-domain=Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))
+domain=GRID([20,20])
 mapping=BIQUADRATICSURFACE(controlpoints)
 VIEW(MAP(mapping)(domain))
 
 
 
-controlpoints=[[[0,0,0 ],[2,0,1],[3,1,1],[4,1,1]],[[1,3,-1],[3,2,0],[4,2,0],[4,2,0]],[[0,4,0 ],[2,4,1],[3,3,2],[5,3,2]],[[0,6,0 ],[2,5,1],[3,4,1],[4,4,0]]]
-domain=Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))
+controlpoints=[[[0,0,0 ],[2,0,1],[3,1,1],[4,1,1]],
+				[[1,3,-1],[3,2,0],[4,2,0],[4,2,0]],
+				[[0,4,0 ],[2,4,1],[3,3,2],[5,3,2]],
+				[[0,6,0 ],[2,5,1],[3,4,1],[4,4,0]]]
+domain=GRID([20,20])
 mapping=HERMITESURFACE(controlpoints)
 VIEW(MAP(mapping)(domain))
 
 
 
-controlpoints=[[[ 0,0,0],[0 ,3  ,4],[0,6,3],[0,10,0]],[[ 3,0,2],[2 ,2.5,5],[3,6,5],[4,8,2]],[[ 6,0,2],[8 ,3 , 5],[7,6,4.5],[6,10,2.5]],[[10,0,0],[11,3  ,4],[11,6,3],[10,9,0]]]
-domain=Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))
+controlpoints=[
+[[ 0,0,0],[0 ,3  ,4],[0,6,3],[0,10,0]],
+[[ 3,0,2],[2 ,2.5,5],[3,6,5],[4,8,2]],
+[[ 6,0,2],[8 ,3 , 5],[7,6,4.5],[6,10,2.5]],
+[[10,0,0],[11,3  ,4],[11,6,3],[10,9,0]]]
+domain=GRID([20,20])
 mapping=BEZIERSURFACE(controlpoints)
-VIEW(MAP(mapping)(domain))
+hpc = MAP(mapping)(domain)
+VIEW(hpc)
 
 
 
-grid1D = INTERVALS(1)(5)
-domain3D = Hpc.power(Hpc.power(grid1D,grid1D),grid1D)
+domain3D=GRID([20,20,4])
 degrees = [2,2,2]
 Xtensor =  [[[0,1,2],[-1,0,1],[0,1,2]],[[0,1,2],[-1,0,1],[0,1,2]],[[0,1,2],[-1,0,1],[0,1,2]]]
 Ytensor =  [[[0,0,0.8],[1,1,1],[2,3,2]],[[0,0,0.8],[1,1,1],[2,3,2]],[[0,0,0.8],[1,1,1],[2,3,2]]]
@@ -195,8 +206,13 @@ verts = [[0,0,0],[3,0,0],[3,2,0],[0,2,0],[0,0,1.5],[3,0,1.5],[3,2,1.5],[0,2,1.5]
 cells = [[1,2],[2,3],[3,4],[4,1],[5,6],[6,7],[7,8],[8,5],[1,5],[2,6],[3,7],[4,8],[5,9],[8,9],[6,10],[7,10], [9,10]]
 pols = [[1]]
 House = MKPOL([verts,cells,pols])
-VIEW(Hpc.Struct([OFFSET([0.1,0.2,0.1])(House), T(1)(1.2*SIZE(1)(House))(House)]))
+VIEW(STRUCT([OFFSET([0.1,0.2,0.1])(House), T(1)(1.2*SIZE(1)(House))(House)]))
 
+
+VIEW(OFFSET([0.1,0.2,0.1])(hpc))
+
+dom3D = INSR(PROD)([INTERVALS(1)(5),INTERVALS(1)(5),INTERVALS(1)(5)])
+VIEW(OFFSET([0.01,0.01,0.03])(SKELETON(1)(dom3D)))
 
 
 Su0 = COMP([BEZIERCURVE([[0,0,0],[10,0,0]]),CONS([S1])])
@@ -204,9 +220,11 @@ Su1 = COMP([BEZIERCURVE([[0,10,0],[2.5,10,3],[5,10,-3],[7.5,10,3],[10,10,0]]),CO
 S0v = COMP([BEZIERCURVE([[0,0,0],[0,0,3],[0,10,3],[0,10,0]]) , CONS([S2]) ]) 
 S1v = COMP([BEZIERCURVE([[10,0,0],[10,5,3],[10,10,0]]) ,CONS([S2])   ])
 surface=COONSPATCH([Su0,Su1,S0v,S1v])
-VIEW(MAP(  surface ) (Hpc.power(INTERVALS(1)(10),INTERVALS(1)(10))))
+
+VIEW(MAP(  surface ) (GRID([20,20])))
 solidMapping = THINSOLID(surface)
-Domain3D = Hpc.power(Hpc.power(INTERVALS(1)(5),INTERVALS(1)(5)),INTERVALS(0.5)(5))
+
+Domain3D = PROD([PROD([INTERVALS(1)(10),INTERVALS(1)(10)]),INTERVALS(0.5)(1)])
 VIEW(MAP(solidMapping)(Domain3D))
 
 
@@ -217,8 +235,17 @@ VIEW(ELLIPSE([1,2])(8))
 
 
 
-vertices=[[0,0],[1.5,0],[-1,2],[2,2],[2,0]]
-VIEW(Hpc.Struct([POLYLINE(vertices),Hpc.power(BEZIERSTRIPE([vertices,0.25,22]),QUOTE([0.9]))]))
+vertices = [[0,0],[1.5,0],[-1,2],[2,2],[2,0]]
+VIEW(STRUCT([
+	POLYLINE(vertices),
+	BEZIERSTRIPE([vertices,0.25,66])
+	]))
+	
+	
+VIEW(STRUCT([
+	POLYLINE(vertices),
+	PROD([ BEZIERSTRIPE([vertices,0.25,66]), QUOTE([0.9]) ])
+	]))
 
 
 

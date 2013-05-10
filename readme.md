@@ -31,6 +31,12 @@
 * [2013-03-27](lessons/2013-03-27)
 * [2013-04-04](lessons/2013-04-04)
 
+
+## Curves, splines and surfaces 
+
+* [2013-05-10](lessons/2013-05-10)
+
+
 ### Teacher
 
 - [Alberto Paoluzzi](http://paoluzzi.dia.uniroma3.it/)
