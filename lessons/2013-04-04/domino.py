@@ -57,7 +57,7 @@ VIEW(building)
 
 
 
-depth = 2.66 # pedata 
+depth = 2.666666 # pedata 
 raiser = 25.0/(2*9) # alzata
 step2D = MKPOL([[[0,0],[0,1.4+raiser],[depth,raiser],[depth,1.4+raiser]],
     [[1,2,3,4]],None])
