@@ -1,6 +1,6 @@
 # Computational Graphics Lessons
 
-# Introduction
+## Introduction
 
 * **new** [2014-03-03](lessons/2013-03-03)
 
