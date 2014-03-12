@@ -6,7 +6,7 @@
 
 # Computational Graphics Lessons
 
-## Introduction
+## Lectures
 
 * [2014-03-03](lessons/2014-03-03)
 * [2014-03-04](lessons/2014-03-04)
