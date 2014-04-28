@@ -13,4 +13,4 @@
 
 ## Exercises
 
-* (statements)[https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/statements/Readme.md]
+* [statements](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/statements/Readme.md)
