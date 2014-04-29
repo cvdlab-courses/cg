@@ -15,5 +15,5 @@
 
 ## Exercises
 
-- [built-ins](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/prototype/Readme.md)
-- [prototype](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/built-ins/Readme.md)
+- [built-ins](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/built-ins/Readme.md)
+- [prototype](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/prototype/Readme.md)
