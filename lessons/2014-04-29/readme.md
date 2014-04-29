@@ -10,3 +10,4 @@
 ## Assignments
 
 * [functions](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/functions/Readme.md)
+* [built-ins](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/built-ins/Readme.md)
