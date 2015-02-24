@@ -3,14 +3,14 @@
 ## Arguments
 
 * JavaScript crumbs
-  - Built-in objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/built-in/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/built-ins/Readme.md))
+  - Built-in objects ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/built-in/Readme.md), [slides](http://cvdlab.github.io/showdown/?md=https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/built-ins/Readme.md))
       - Array
       - String
       - Number
       - Math
       - Date
       - RegExp
-  - Prototype ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/prototype/Readme.md), [slides](https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/prototype/Readme.md))
+  - Prototype ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/prototype/Readme.md), [slides](http://cvdlab.github.io/showdown/?md=https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/prototype/Readme.md))
 
 ## Exercises
 
