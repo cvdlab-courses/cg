@@ -22,7 +22,7 @@
 | 11 | Tue, Mar 24 | 3D affine transforms, properties, inverses, covectors | theory-1 |
 | 12 | Thu, Mar 26 | lesson 2: points, vectors, meshes | udacity |
 | 13 | Mon, Mar 30 | local vs global coords, hierarchical structures, traversal | theory-1 |
-| 14 | Tue, Mar 31 | esonero 1 | test |
+| **14** | **Tue, Mar 31** | **test 1** | **test** |
 | 15 | Thu, Apr 9 | lesson 3: colors and materials | udacity |
 | 16 | Mon, Apr 13 | LAR mesh, param. maps, circle, spiral, sphere, cyl, torus | theory-2 |
 | 17 | Tue, Apr 14 | polynomial curves, Lagrange, Hermite bases | theory-2 |
@@ -35,7 +35,7 @@
 | 24 | Thu, Apr 30 | lessons 6: lights | udacity |
 | 25 | Mon, May 4 | Tensor product polynomial surfaces | theory-2 |
 | 26 | Tue, May 5 | NURBS surfaces | theory-2 |
-| 27 | Thu, May 7 | esonero 2 | test |
+| **27** | **Thu, May 7** | **test 2** | **test** |
 | 28 | Mon, May 11 | window-viewport mapping, view volume, camera model | theory-3 |
 | 30 | Tue, May 12 | taxonomy of projections, specialized cameras, stereo | theory-3 |
 | 31 | Thu, May 14 | lesson 7: cameras | udacity |
@@ -49,7 +49,7 @@
 | 39 | Thu, Jun 4 | lesson 10: interaction and animation | udacity |
 | 40 | Mon, Jun 8 | final project | project |
 | 41 | Tue, Jun 9 | final project | project |
-| 42 | Thu, Jun 11 | esonero 3 | test |
+| **42** | **Thu, Jun 11** | **test 3** | **test** |
 
 ## Teacher
 
