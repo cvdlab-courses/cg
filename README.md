@@ -41,10 +41,10 @@
 | 31 | Thu, May 14 | [lesson 7: cameras](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-14) | udacity |
 | 32 | Mon, May 18 | Transfinite manifolds, three variate solids | theory-3 |
 | 33 | Tue, May 19 | Operations: Cartesian product, Minkowski sums | theory-3 |
-| 34 | Thu, May 21 | [lesson 8: textures and reflections](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-21) | udacity |
+| 34 | Thu, May 21 | [lesson 8: textures and reflections](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-21) | udacity |
 | 35 | Mon, May 25 | Computational geometry: Delaunay, Voronoi | theory-3 |
 | 36 | Tue, May 26 | Computational geometry: Boolean ops | theory-3 |
-| 37 | Thu, May 28 | [lesson 9: shader programming](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-28) | udacity |
+| 37 | Thu, May 28 | [lesson 9: shader programming](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-28) | udacity |
 | 38 | Mon, Jun 1 | DOFs, configuration space, motion, obstacle avoidance | theory-3 |
 | 39 | Thu, Jun 4 | [lesson 10: interaction and animation](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | udacity |
 | 40 | Mon, Jun 8 | final project | project |
