@@ -9,8 +9,8 @@
 
 | # | date | arguments | category |
 |--:|------|-----------|----------|
-| 1 | Mon, Mar 2 | introduzione corso + introduzione | py |
-| 2 | Tue, Mar 3 | introduzione | py |
+| 1 | Mon, Mar 2 | course presentation | py |
+| 2 | Tue, Mar 3 | introduction | py |
 | 3 | Thu, Mar 5 | [environment, syntax, types, operators, statements](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-05) | js |
 | 4 | Mon, Mar 9 | [objects, functions, functional scope, closures](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-09) | js |
 | 5 | Tue, Mar 10 | [built-in objects, prototype](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-10) | js |
