@@ -10,8 +10,8 @@
 
 | # | date | arguments | category |
 |--:|------|-----------|----------|
-| 1 | Mon, Mar 2 | course presentation | py |
-| 2 | Tue, Mar 3 | introduction | py |
+| 1 | Mon, Mar 2 | [Course syllabus](lessons/2015-03-02/lecture-01a), [Python 1](lessons/2015-03-02/lecture-01a) | py |
+| 2 | Tue, Mar 3 | Introduction to pyplasm, Python 2 | py |
 | 3 | Thu, Mar 5 | [environment, syntax, types, operators, statements](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-05) | js |
 | 4 | Mon, Mar 9 | [objects, functions, functional scope, closures](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-09) | js |
 | 5 | Tue, Mar 10 | [built-in objects, prototype](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-10) | js |
