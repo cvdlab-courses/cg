@@ -2,6 +2,7 @@
 
 1. Signup to GitHub
 2. Ask to join [CVDLAB Facebook group](https://www.facebook.com/groups/cvdlab/)
+3. Fill in the [enrollment spreadsheet](https://docs.google.com/spreadsheets/d/1WYKBwIbqk1SF6MdTQ7HIauO457_MMWyekyD5CT5x48c/edit#gid=0)
 
 # Computational Graphics
 
