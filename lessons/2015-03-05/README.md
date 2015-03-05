@@ -2,7 +2,7 @@
 
 ## Topics
 
-* HTML5 + JS environment
+* [HTML5](https://github.com/cvdlab/html5-crumbs) + JS environment
 * project: `"hello JavaScript"`
 * JavaScript crumbs
   - introduction ([handbook](https://github.com/cvdlab/javascript-crumbs/blob/master/chapters/introduction/Readme.md), [slides](http://cvdlab.github.io/showdown/?md=https://github.com/cvdlab/javascript-crumbs-slides/blob/master/chapters/introduction/Readme.md))
