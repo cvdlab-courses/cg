@@ -15,3 +15,8 @@
 
 * JavaScript crumbs
   - [built-ins](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/built-ins/Readme.md)
+
+## Examples
+
+* JavaScript crumbs
+  - [exercise01](exercise01.js)
