@@ -52,7 +52,7 @@
 | 37 | Thu, Jun 4 | [lesson 10: interaction and animation](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | udacity |
 | 48 | Mon, Jun 8 | final project | project |
 | 39 | Tue, Jun 9 | final project | project |
-| 40 | Tue, Jun 11 | final project | project |
+| 40 | Thu, Jun 11 | final project | project |
 
 ## Teacher
 
