@@ -10,6 +10,7 @@
 
 * JavaScript crumbs
   - [prototype](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/prototype/Readme.md)
+  - [inheritance](https://github.com/cvdlab/javascript-crumbs-exercises/blob/master/chapters/inheritance/Readme.md)
 
 ## Examples
 
