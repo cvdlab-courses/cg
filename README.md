@@ -16,9 +16,9 @@
 | ~~4~~ | ~~Mon, Mar 9~~ | [~~objects, functions, functional scope, closures~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-09) | ~~js~~ |
 | ~~5~~ | ~~Tue, Mar 10~~ | [~~built-in objects, exercises~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-10) | ~~js~~ |
 | ~~6~~ | ~~Thu, Mar 12~~ | [~~prototype, OOP, inheritance~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-12) | ~~js~~ |
-| 7 | Mon, Mar 16 | JavaScript drill | js |
-| 8 | Tue, Mar 17 | linear & affine sets, bases, operators, affine coords | theory-1 |
-| 9 | Thu, Mar 19 | simplicial & cellular complexes, LAR, boundary op. | theory-1 |
+| ~~7~~ | ~~Mon, Mar 16~~ | ~~JavaScript drill~~ | ~~js~~ |
+| ~~8~~ | ~~Tue, Mar 17~~ | [~~linear & affine sets, bases, operators, affine coords~~](lessons/2015-03-17/lecture-8.pdf) | ~~theory-1~~ |
+| 9 | Thu, Mar 19 | [simplicial & cellular complexes, LAR, boundary op.](lessons/2015-03-19/lecture-9.pdf) | theory-1 |
 | 10 | Mon, Mar 23 | 2D affine transforms, transl,rot,scale, shear,composition | theory-1 |
 | 11 | Tue, Mar 24 | 3D affine transforms, properties, inverses, covectors | theory-1 |
 | 12 | Thu, Mar 26 | [lesson 1: introduction](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-19) | udacity |
