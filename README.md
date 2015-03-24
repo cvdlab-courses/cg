@@ -19,8 +19,8 @@
 | ~~7~~ | ~~Mon, Mar 16~~ | ~~JavaScript drill~~ | ~~js~~ |
 | ~~8~~ | ~~Tue, Mar 17~~ | [~~linear & affine sets, bases, operators, affine coords~~](lessons/2015-03-17/lecture-8.pdf) | ~~theory-1~~ |
 | ~~9~~ | ~~Thu, Mar 19~~ | [~~simplicial & cellular complexes, LAR, boundary op.~~](lessons/2015-03-19/lecture-9.pdf) | ~~theory-1~~ |
-| 10 | Mon, Mar 23 | [2D affine transforms, transl,rot,scale, shear,composition](lessons/2015-03-23/lecture-10.pdf) | theory-1 |
-| 11 | Tue, Mar 24 | 3D affine transforms, properties, inverses, covectors | theory-1 |
+| ~~10~~ | ~~Mon, Mar 23~~ | [~~2D affine transforms, transl,rot,scale, shear,composition~~](lessons/2015-03-23/lecture-10.pdf) | ~~theory-1~~ |
+| 11 | Tue, Mar 24 | [3D affine transforms, properties, inverses, covectors](lessons/2015-03-24/lecture-11.pdf) | theory-1 |
 | 12 | Thu, Mar 26 | [lesson 1: introduction](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-19) | udacity |
 | 13 | Mon, Mar 30 | local vs global coords, hierarchical structures | theory-1 |
 | 14 | Tue, Mar 31 | hierarchical structures, traversal | theory-1
