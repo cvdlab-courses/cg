@@ -1,1 +1,1 @@
-## [Lesson 3: Colors and Materials](https://www.udacity.com/wiki/cs291#lesson-3-colors-and-materials)
+## [Lesson 2: Points, Vectors, and Meshes](https://www.udacity.com/wiki/cs291#lesson-2-points-vectors-and-meshes)

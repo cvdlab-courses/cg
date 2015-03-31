@@ -1,1 +1,1 @@
-## [lesson 10: interaction and animation](https://www.udacity.com/wiki/cs291#lesson-10-interaction-and-animation)
+## [lesson 9: shader programming](https://www.udacity.com/wiki/cs291#lesson-9-shader-programming)

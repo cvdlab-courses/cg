@@ -1,1 +1,0 @@
-## [Lesson 1: Introduction](https://www.udacity.com/wiki/cs291#lesson-1-introduction)

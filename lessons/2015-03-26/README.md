@@ -1,1 +1,1 @@
-## [Lesson 2: Points, Vectors, and Meshes](https://www.udacity.com/wiki/cs291#lesson-2-points-vectors-and-meshes)
+## [Lesson 1: Introduction](https://www.udacity.com/wiki/cs291#lesson-1-introduction)
