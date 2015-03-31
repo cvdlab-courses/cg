@@ -22,8 +22,8 @@
 | ~~10~~ | ~~Mon, Mar 23~~ | [~~2D affine transforms, transl,rot,scale, shear,composition~~](lessons/2015-03-23/lecture-10.pdf) | ~~theory-1~~ |
 | ~~11~~ | ~~Tue, Mar 24~~ | [~~3D affine transforms, properties, inverses, covectors~~](https://github.com/cvdlab-cg/lessons/blob/master/lessons/2015-03-24/lecture-11.pdf) | ~~theory-1~~ |
 | ~~12~~ | ~~Thu, Mar 26~~ | [~~lesson 1: introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-03-26) | ~~udacity~~ |
-| ~~13~~ | ~~Mon, Mar 30~~ | [~~simplicial and cubical complexes, LAR~~](lessons/2015-03-30/lecture-12.pdf) | ~~theory-1~ |
-| 14 | Tue, Mar 31 | [hierarchical structures, traversal](lessons/2015-03-31/) | theory-1
+| ~~13~~ | ~~Mon, Mar 30~~ | [~~simplicial and cubical complexes, LAR~~](lessons/2015-03-30/) | ~~theory-1~~ |
+| ~~14~~ | ~~Tue, Mar 31~~ | [~~hierarchical structures, traversal~~](lessons/2015-03-31/lecture-13.pdf) | ~~theory-1~~ |
 | **e1** | **Wed, Apr 8** | **test 1** | **test** |
 | 15 | Thu, Apr 9 | [lesson 2: points, vectors, meshes](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-09) | udacity |
 | 16 | Mon, Apr 13 | LAR mesh, param. maps, circle, spiral, sphere, cyl, torus | theory-2 |
