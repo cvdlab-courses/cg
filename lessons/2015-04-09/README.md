@@ -2,14 +2,14 @@
 
 ### How to run *cs291* exercises
 
-1. clone [`erich666/cs291`](https://github.com/erich666/cs291) repository
+#### 1. clone [`udacity/cs291`](https://github.com/udacity/cs291) repository
 
 ```
 cd <your/workspace/directory>
-git clone https://github.com/erich666/cs291.git
+git clone https://github.com/udacity/cs291.git
 ```
 
-2. install [`httpserver`](https://www.npmjs.com/package/httpserver) from [`npm`](https://www.npmjs.com) 
+#### 2. install [`httpserver`](https://www.npmjs.com/package/httpserver) from [`npm`](https://www.npmjs.com) 
 
 > NOTE: you need [`Node.js`](https://nodejs.org/) installed on your machine
 
@@ -17,14 +17,14 @@ git clone https://github.com/erich666/cs291.git
 npm install -g httpserver
 ```
 
-3. run `httpserver` from inside `cs291` directory
+#### 3. run `httpserver` from inside `cs291` directory
 
 ```
 cd <path/to/cs291>
 httpserver 3000
 ```
 
-4. open your browser and go to [http://localhost:3000](http://localhost:3000)
+#### 4. open your browser and go to [http://localhost:3000](http://localhost:3000)
 
 
 > NOTE: you can obviously skip step 2 and step 3 if you already have a webserver up and running
