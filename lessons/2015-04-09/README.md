@@ -29,7 +29,7 @@ httpserver 3000
 
 > NOTE: you can obviously skip step 2 and step 3 if you already have a webserver up and running
 
-###  `threejs-crumbs` references
+###  [`threejs-crumbs`](https://github.com/cvdlab/threejs-crumbs) references
 
 * [Skeleton](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example01.html)
 * [First Scene](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example02.html)
