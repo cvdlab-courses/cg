@@ -25,8 +25,8 @@
 | ~~13~~ | ~~Mon, Mar 30~~ | [~~simplicial and cubical complexes, LAR~~](lessons/2015-03-30/) | ~~theory-1~~ |
 | ~~14~~ | ~~Tue, Mar 31~~ | [~~hierarchical structures, traversal~~](lessons/2015-03-31/lecture-13.pdf) | ~~theory-1~~ |
 | ~~**e1**~~ | ~~**Wed, Apr 8**~~ | ~~**test 1**~~ | ~~**test**~~ |
-| 15 | Thu, Apr 9 | [lesson 2: points, vectors, meshes](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-09) | udacity |
-| 16 | Mon, Apr 13 | LAR mesh, param. maps, circle, spiral, sphere, cyl, torus | theory-2 |
+| ~~15~~ | ~~Thu, Apr 9~~ | [~~lesson 2: points, vectors, meshes~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-09) | ~~udacity~~ |
+| 16 | Mon, Apr 13 | [LAR mesh, param. maps, circle, spiral, sphere, cyl, torus](https://github.com/cvdlab-cg/lessons/blob/master/lessons/2015-04-13/) | theory-2 |
 | 17 | Tue, Apr 14 | polynomial curves, Lagrange, Hermite bases | theory-2 |
 | 18 | Thu, Apr 16 | [lesson 3: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16) | udacity |
 | 19 | Mon, Apr 20 | polynomial curves, Bezier basis | theory-2 |
