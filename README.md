@@ -27,7 +27,7 @@
 | ~~**e1**~~ | ~~**Wed, Apr 8**~~ | ~~**test 1**~~ | ~~**test**~~ |
 | ~~15~~ | ~~Thu, Apr 9~~ | [~~lesson 2: points, vectors, meshes~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-09) | ~~udacity~~ |
 | ~~16~~ | ~~Mon, Apr 13~~ | [~~LAR mesh, param. maps, circle, spiral, sphere, cyl, torus~~](https://github.com/cvdlab-cg/lessons/blob/master/lessons/2015-04-13/) | theory-2 |
-| 17 | Tue, Apr 14 | [polynomial curves, Lagrange, Hermite bases](lessons/2015-04-14/ch11.pdf) | theory-2 |
+| ~~17~~ | ~~Tue, Apr 14~~ | [~~polynomial curves, Lagrange, Hermite bases~~](lessons/2015-04-14/ch11.pdf) | ~~theory-2~~ |
 | 18 | Thu, Apr 16 | [lesson 3 - part 1/2: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16) | udacity |
 | 19 | Mon, Apr 20 | polynomial curves, Bezier basis | theory-2 |
 | 20 | Tue, Apr 21 | spline curves, cardinal, b-spline bases | theory-2 |
