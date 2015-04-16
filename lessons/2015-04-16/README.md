@@ -1,6 +1,7 @@
 ## Lesson 3: Colors and Materials
-    ### [Videos](https://www.udacity.com/course/viewer#!/c-cs291/l-91376562/m-101541791)
-    ### [Additional material](https://www.udacity.com/wiki/cs291#lesson-3-colors-and-materials)
+    
+### [Videos](https://www.udacity.com/course/viewer#!/c-cs291/l-91376562/m-101541791)
+### [Additional material](https://www.udacity.com/wiki/cs291#lesson-3-colors-and-materials)
 
 ###  [`threejs-crumbs`](https://github.com/cvdlab/threejs-crumbs) references
 
