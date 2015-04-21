@@ -36,19 +36,3 @@ def hermite(p1,p2,t1,t2):
 hpc = MAP(hermite([0,0],[3,0],[10,10],[2,2]))(INTERVALS(1)(32))
 
 VIEW(hpc)
-
-
-
-def  bezierBasis(n):
-    
-    return basis
-
-def bezier(points):
-    def hermite0(p):
-        u = p[0]
-        basis = bezierBasis(n)
-        handles = TRANS(points)
-        out = AA(INNERPROD)(DISTL([basis,handles]))
-        return out
-    return hermite0
-
