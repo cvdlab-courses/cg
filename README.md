@@ -29,8 +29,8 @@
 | ~~16~~ | ~~Mon, Apr 13~~ | [~~LAR mesh, param. maps, circle, spiral, sphere, cyl, torus~~](https://github.com/cvdlab-cg/lessons/blob/master/lessons/2015-04-13/) | theory-2 |
 | ~~17~~ | ~~Tue, Apr 14~~ | [~~polynomial curves, Lagrange, Hermite bases~~](lessons/2015-04-14/) | ~~theory-2~~ |
 | ~~18~~ | ~~Thu, Apr 16~~ | ~~[lesson 3 - part 1/2: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16)~~ | ~~udacity~~ |
-| 19 | Mon, Apr 20 | [polynomial curves, Bezier basis](lessons/2015-04-20/) | theory-2 |
-| 20 | Tue, Apr 21 | spline curves, cardinal, b-spline bases | theory-2 |
+| ~~19~~ | ~~Mon, Apr 20~~ | ~~[polynomial curves, Bezier basis](lessons/2015-04-20/)~~ | ~~theory-2~~ |
+| 20 | Tue, Apr 21 | [spline curves, cardinal, b-spline bases](lessons/2015-04-21/) | theory-2 |
 | 21 | Thu, Apr 23 | [lesson 3 - part 2/2: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16) | udacity |
 | 22 | Mon, Apr 27 | NURBS curves | theory-2 |
 | 23 | Tue, Apr 28 | classes of surfaces: rot., profile prod, ruled, tensor prod. | theory-2 |
