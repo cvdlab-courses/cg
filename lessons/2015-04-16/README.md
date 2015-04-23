@@ -10,6 +10,11 @@
 * [Mesh Lambert material](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example16.html)
 * [Mesh Phong material](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example17.html)
 
+---
+* [Control gui](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example05.html)
+* [Trackball camera controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example07.html)
+
 ## Useful links
 
-* [THREE.js documentation](http://threejs.org/docs/)
+* THREE.js - [documentation](http://threejs.org/docs/)
+* dat.GUI - [project](https://code.google.com/p/dat-gui/) -  [tutorial](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage)
