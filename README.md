@@ -32,10 +32,10 @@
 | ~~19~~ | ~~Mon, Apr 20~~ | ~~[polynomial curves, Bezier basis](lessons/2015-04-20/)~~ | ~~theory-2~~ |
 | ~~20~~ | ~~Tue, Apr 21~~ | ~~[spline curves, cardinal, b-spline bases](lessons/2015-04-21/)~~ | ~~theory-2~~ |
 | ~~21~~ | ~~Thu, Apr 23~~ | ~~[lesson 3 - part 2/2: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16)~~ | ~~udacity~~ |
-| 22 | Mon, Apr 27 | [classes of surfaces: rot., profile prod, ruled, tensor prod.](lessons/2015-04-27/) | theory-2 |
-| 23 | Tue, Apr 28 | NURBS curves | theory-2 |
+| ~~22~~ | ~~Mon, Apr 27~~ | ~~[classes of surfaces: rot., profile prod, ruled, tensor prod.](lessons/2015-04-27/)~~ | ~~theory-2~~ |
+| 23 | Tue, Apr 28 | [Tensor product polynomial surfaces](lessons/2015-04-27/) | theory-2 |
 | 24 | Thu, Apr 30 | [lesson 4: transforms](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-23) | udacity |
-| 25 | Mon, May 4 | Tensor product polynomial surfaces | theory-2 |
+| 25 | Mon, May 4 | NURBS curves | theory-2 |
 | 26 | Tue, May 5 | NURBS surfaces | theory-2 |
 | **e2** | **Thu, May 7** | **test 2** | **test** |
 | 27 | Mon, May 11 | window-viewport mapping, view volume, camera model | theory-3 |
