@@ -1,4 +1,4 @@
-## Lesson 3: Colors and Materials
+## Lesson 3: Colors and Materials (part 1/2)
     
 ### [Videos](https://www.udacity.com/course/viewer#!/c-cs291/l-91376562/m-101541791)
 ### [Additional material](https://www.udacity.com/wiki/cs291#lesson-3-colors-and-materials)
@@ -12,4 +12,4 @@
 
 ## Useful links
 
-* [THREE.js documentation](http://threejs.org/docs/)
+* THREE.js - [documentation](http://threejs.org/docs/)

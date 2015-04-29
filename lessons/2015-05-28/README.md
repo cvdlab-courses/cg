@@ -1,1 +1,1 @@
-## [lesson 8: textures and reflections](https://www.udacity.com/wiki/cs291#lesson-8-textures-and-reflections)
+## [lesson 7: cameras](https://www.udacity.com/wiki/cs291#lesson-7-cameras)

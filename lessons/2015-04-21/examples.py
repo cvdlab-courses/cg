@@ -1,4 +1,4 @@
-
+from pyplasm import *
 
 def bezierBasis(n):
     def bezierBasis0(u):
