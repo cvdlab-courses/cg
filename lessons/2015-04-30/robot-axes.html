@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Example 7 - Trackball camera controls</title> 
+  <style>
+    body{
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #stats {  /* Align stats top-left */
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+  </style> 
+  </head>
+  <body>
+    <div id="container"></div>
+  <!-- JavaScript libraries -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+  <script src="assets/libs/TrackballControls.js"></script>
+  <!-- Javascript code that runs our Three.js examples --> 
+  <script>
+    // once everything is loaded, we run our Three.js stuff.
+    $(function () {
+
+      var stats = initStats();
+
+      // create a scene, that will hold all our elements such as objects, cameras and lights.
+      var scene = new THREE.Scene();
+
+      // create a camera, which defines where we're looking at.
+      var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+      // create a render and set the size
+      var renderer = new THREE.WebGLRenderer();
+
+      // create trackball controls
+      var trackballControls = new THREE.TrackballControls(camera);
+
+      renderer.setClearColor(new THREE.Color(0xEEEEEE, 1.0));
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      var t1_geometry = new THREE.TorusGeometry( 1.1, 0.4, 16, 12);
+      var t1_material = new THREE.MeshLambertMaterial({color: 0xff0000}); 
+      var t1 = new THREE.Mesh(t1_geometry, t1_material);
+
+      t1.rotation.x = -Math.PI/2;
+      t1.position.y = 0.4;
+
+      scene.add(t1);
+
+      var s1_geometry = new THREE.SphereGeometry(0.8,20,20);
+      var s1_material = new THREE.MeshLambertMaterial({color: 0x7777ff});
+      var s1 = new THREE.Mesh(s1_geometry,s1_material);
+
+      s1.position.z = 0.4;
+
+      t1.add(s1);
+
+      var o1 = new THREE.Object3D();
+
+      s1.add(o1);
+
+      var c1_geometry = new THREE.CylinderGeometry(0.8, 0.8, 6);
+      var c1_material = new THREE.MeshLambertMaterial({color: 0xff7777});
+      var c1 = new THREE.Mesh(c1_geometry,c1_material);
+
+      c1.rotation.x = -Math.PI/2;
+      c1.position.z = 3 + 0.8;
+
+      o1.add(c1);
+
+      var s2_geometry = new THREE.SphereGeometry(0.8,20,20);
+      var s2_material = new THREE.MeshLambertMaterial({color: 0x77ffff});
+      var s2 = new THREE.Mesh(s2_geometry,s2_material);
+
+      c1.add(s2);
+
+      s2.position.y = - (5 + 0.8);
+
+      var s2_axis = new THREE.AxisHelper(3);
+
+
+      s2.add(s2_axis);
+
+
+      // position and point the camera to the center of the scene
+      camera.position.set(-30,40,30);
+      camera.up = new THREE.Vector3(0,1,0);
+      camera.lookAt(scene.position);
+
+      // add subtle ambient lighting
+      var ambientLight = new THREE.AmbientLight(0x0c0c0c);
+      scene.add(ambientLight);
+
+      // add spotlight for the shadows
+      var spotLight = new THREE.SpotLight( 0xffffff );
+      spotLight.position.set(-40,60,-10);
+      scene.add(spotLight);
+
+      // add axis helper
+      var axisHelper = new THREE.AxisHelper(3);
+      scene.add(axisHelper);
+
+      // add the output of the renderer to the html element
+      $('#container').append(renderer.domElement);
+
+      // call the render function
+      var step = 0;
+
+      var controls = {
+        x: 0.01,
+        z: 0.01,
+        alpha: 0,
+        beta: 0
+      };
+
+      var gui = new dat.GUI();
+      var x_control = gui.add(controls, 'x', 0, 1);
+      var z_control = gui.add(controls, 'z', 0, 1);
+      var alpha_control = gui.add(controls, 'alpha', -180, 180);
+      var beta_control = gui.add(controls, 'beta', -45, 45);
+
+      x_control.onChange(function (value) {
+        t1.position.x = 10 * value;
+        console.log(arguments);
+      });
+
+      z_control.onChange(function (value) {
+        t1.position.z = 10 * value;
+      });
+
+      alpha_control.onChange(function (value) {
+        s1.rotation.z = value / 180 * Math.PI;
+      });
+
+      beta_control.onChange(function (value) {
+        o1.rotation.x = value / 180 * Math.PI;
+      });
+
+      render();
+
+      function render() {
+        stats.update();
+        trackballControls.update();
+
+        // render using requestAnimationFrame
+        requestAnimationFrame(render);
+        renderer.render(scene, camera);
+      }
+
+      function initStats() {
+        var stats = new Stats();
+        stats.setMode(0); // 0: fps, 1: ms
+        $('body').append(stats.domElement);
+        return stats;
+      }
+    });
+  </script>  
+ </body>
+</html>
