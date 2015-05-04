@@ -146,7 +146,12 @@
         $('body').append(stats.domElement);
         return stats;
       }
+
+      $('.dg.main').on('mousedown', function (event) {
+        event.stopPropagation();
+      });
     });
+
   </script>  
  </body>
 </html>
