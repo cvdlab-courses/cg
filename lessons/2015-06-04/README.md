@@ -1,1 +1,1 @@
-## [lesson 9: shader programming](https://www.udacity.com/wiki/cs291#lesson-9-shader-programming)
+## [lesson 8: textures and reflections](https://www.udacity.com/wiki/cs291#lesson-8-textures-and-reflections)
