@@ -33,12 +33,12 @@
 | ~~20~~ | ~~Tue, Apr 21~~ | ~~[spline curves, cardinal, b-spline bases](lessons/2015-04-21/)~~ | ~~theory-2~~ |
 | ~~21~~ | ~~Thu, Apr 23~~ | ~~[lesson 3 - part 2/2: colors and materials](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-16)~~ | ~~udacity~~ |
 | ~~22~~ | ~~Mon, Apr 27~~ | ~~[classes of surfaces: rot., profile prod, ruled, tensor prod.](lessons/2015-04-27/)~~ | ~~theory-2~~ |
-| 23 | Tue, Apr 28 | [Tensor product polynomial surfaces](lessons/2015-04-27/) | theory-2 |
-| 24 | Thu, Apr 30 | [lesson 4: transforms](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-23) | udacity |
+| ~~23~~ | ~~Tue, Apr 28~~ | ~~[Tensor product polynomial surfaces](lessons/2015-04-27/)~~ | ~~theory-2~~ |
+| ~~24~~ | ~~Thu, Apr 30~~ | ~~[lesson 4: transforms](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-23)~~ | ~~udacity~~ |
 | 25 | Mon, May 4 | NURBS curves | theory-2 |
 | 26 | Tue, May 5 | NURBS surfaces | theory-2 |
 | **e2** | **Thu, May 7** | **test 2** | **test** |
-| 27 | Mon, May 11 | window-viewport mapping, view volume, camera model | theory-3 |
+| 27 | Mon, May 11 | [window-viewport mapping, view volume, camera model](lessons/2015-05-11/) | theory-3 |
 | 38 | Tue, May 12 | taxonomy of projections, specialized cameras, stereo | theory-3 |
 | 29 | Thu, May 14 | [lessons 5: matrices](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-30) | udacity |
 | 30 | Mon, May 18 | Transfinite manifolds, three variate solids | theory-3 |
