@@ -38,8 +38,8 @@
 | 25 | Mon, May 4 | NURBS curves | theory-2 |
 | 26 | Tue, May 5 | NURBS surfaces | theory-2 |
 | **e2** | **Thu, May 7** | **test 2** | **test** |
-| 27 | Mon, May 11 | [window-viewport mapping, view volume, camera model](lessons/2015-05-11/) | theory-3 |
-| 38 | Tue, May 12 | taxonomy of projections, specialized cameras, stereo | theory-3 |
+| ~~27~~ | ~~Mon, May 11~~ | [~~window-viewport mapping, view volume, camera model~~](lessons/2015-05-11/) | ~~theory-3~~ |
+| 28 | Tue, May 12 | [taxonomy of projections, specialized cameras, stereo](lessons/2015-05-12/) | theory-3 |
 | 29 | Thu, May 14 | [lessons 5: matrices](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-14) | udacity |
 | 30 | Mon, May 18 | Transfinite manifolds, three variate solids | theory-3 |
 | 31 | Tue, May 19 | Operations: Cartesian product, Minkowski sums | theory-3 |
