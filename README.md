@@ -37,7 +37,7 @@
 | ~~24~~ | ~~Thu, Apr 30~~ | [~~lesson 4: transforms~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-04-30) | ~~udacity~~ |
 | 25 | Mon, May 4 | NURBS curves | theory-2 |
 | 26 | Tue, May 5 | NURBS surfaces | theory-2 |
-| ~~**e2**~~ | ~~**Thu, May 7**~~ | ~~**test 2**~~ | ~~**test**~~ CANCELLED |
+| ~~**e2**~~ | ~~**Thu, May 7**~~ | ~~**test 2** **CANCELLED**~~ | ~~**test**~~ |
 | ~~27~~ | ~~Mon, May 11~~ | [~~window-viewport mapping, view volume, camera model~~](lessons/2015-05-11/) | ~~theory-3~~ |
 | 28 | Tue, May 12 | [taxonomy of projections, specialized cameras, stereo](lessons/2015-05-12/) | theory-3 |
 | 29 | Thu, May 14 | [lessons 5: matrices](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-14) -  [lessons 6: lights](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-21) | udacity |
