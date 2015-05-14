@@ -1,6 +1,4 @@
-## Lessons 6: lights ()
-
-## Lesson 4: Transforms
+## Lessons 6: Lights
     
 ### [Videos](https://www.udacity.com/course/viewer#!/c-cs291/l-124106593/m-157996647)
 ### [Additional material](https://www.udacity.com/wiki/cs291#lesson-6-lights)
