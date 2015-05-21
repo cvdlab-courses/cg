@@ -5,12 +5,12 @@
 
 ## THREE.js crumbs
 
-7. [Trackball camera controls](examples/example07.html)
-8. [Camera helper](examples/example08.html)
-38. [Fly controls](examples/example38.html)
-39. [First person camera](examples/example39.html)
-40. [Path controls](examples/example40.html)
-41. [Pointer Lock controls](examples/example41.html)
+7. [Trackball camera controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example07.html)
+8. [Camera helper](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example08.html)
+38. [Fly controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example38.html)
+39. [First person camera](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example39.html)
+40. [Path controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example40.html)
+41. [Pointer Lock controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example41.html)
 
 ## Useful links
 
