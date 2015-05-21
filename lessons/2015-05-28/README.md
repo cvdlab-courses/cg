@@ -12,6 +12,10 @@
 40. [Path controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example40.html)
 41. [Pointer Lock controls](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example41.html)
 
+## THREE.js demo
+
+* [Pointer Lock demo](https://github.com/cvdlab/threejs-demo-pointerlock)
+
 ## Useful links
 
 * THREE.js - [documentation](http://threejs.org/docs/)
