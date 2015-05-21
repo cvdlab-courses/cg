@@ -41,8 +41,8 @@
 | ~~27~~ | ~~Mon, May 11~~ | [~~window-viewport mapping, view volume, camera model~~](lessons/2015-05-11/) | ~~theory-3~~ |
 | ~~28~~ | ~~Tue, May 12~~ | [~~taxonomy of projections, specialized cameras, stereo~~](lessons/2015-05-12/) | ~~theory-3~~ |
 | ~~29~~ | ~~Thu, May 14~~ | [~~lessons 5: matrices~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-14) -  [~~lessons 6: lights~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-21) | ~~udacity~~ |
-| 30 | Mon, May 18 | Transfinite manifolds, three variate solids | theory-3 |
-| 31 | Tue, May 19 | Operations: Cartesian product, Minkowski sums | theory-3 |
+| ~~30~~ | ~~Mon, May 18~~ | ~~Transfinite manifolds, three variate solids~~ | ~~theory-3~~ |
+| ~~31~~ | ~~Tue, May 19~~ | ~~Operations: Cartesian product, Minkowski sums~~ | ~~theory-3~~ |
 | 32 | Thu, May 21 | [lesson 7: cameras](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-28) | udacity |
 | 33 | Mon, May 25 | Computational geometry: Delaunay, Voronoi | theory-3 |
 | 34 | Tue, May 26 | Computational geometry: Boolean ops | theory-3 |
