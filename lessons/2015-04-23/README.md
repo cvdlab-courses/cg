@@ -18,3 +18,4 @@
 
 * THREE.js - [documentation](http://threejs.org/docs/)
 * dat.GUI - [project](https://code.google.com/p/dat-gui/) -  [tutorial](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage)
+* [THREE.js tutorial](https://www.packtpub.com/books/content/working-basic-components-make-threejs-scene)
