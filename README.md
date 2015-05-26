@@ -66,3 +66,4 @@
 ## Grades
 
 ### [test 1](test-1/readme.md)
+### [test 2](test-2/readme.md)
