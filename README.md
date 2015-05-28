@@ -44,8 +44,9 @@
 | ~~30~~ | ~~Mon, May 18~~ | ~~Transfinite manifolds, three variate solids~~ | ~~theory-3~~ |
 | ~~31~~ | ~~Tue, May 19~~ | ~~Operations: Cartesian product, Minkowski sums~~ | ~~theory-3~~ |
 | ~~32~~ | ~~Thu, May 21~~ | [~~lesson 7: cameras~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-28) | ~~udacity~~ |
-| 33 | Mon, May 25 | [Introduction to solid modeling](lessons/2015-05-25/) | theory-3 |
-| 34 | Tue, May 26 | Computational geometry: Boolean ops | theory-3 |
+| ~~33~~ | ~~Mon, May 25~~ | [~~Introduction to solid modeling~~](lessons/2015-05-25/) | ~~theory-3~~ |
+| ~~34~~ | ~~Tue, May 26~~ | [~~Introduction to solid modeling 2~~](lessons/2015-05-28a/) | ~~theory-3~~ |
+| 35 | Thu, May 28 | [exercises](lessons/2015-05-25/) | ~~theory-3~~ |
 | 35 | Thu, May 28 | [lesson 8 - part 1/2: textures and reflections](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-28) | udacity |
 | 36 | Mon, Jun 1 | DOFs, configuration space, motion, obstacle avoidance | theory-3 |
 | **e3** | **Wed, Jun 3** | **test 3** | **test** |
