@@ -24,4 +24,4 @@
 
 * THREE.js - [documentation](http://threejs.org/docs/)
 * dat.GUI - [project](https://code.google.com/p/dat-gui/) -  [tutorial](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage)
-* [THREE.js editor](http://threejs.org/editor/)
+* [OBJ format](http://en.wikipedia.org/wiki/Wavefront_.obj_file)
