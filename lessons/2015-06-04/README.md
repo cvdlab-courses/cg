@@ -23,5 +23,5 @@
 ## Useful links
 
 * THREE.js - [documentation](http://threejs.org/docs/)
-* dat.GUI - [project](https://code.google.com/p/dat-gui/) -  [tutorial](http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage)
 * [OBJ format](http://en.wikipedia.org/wiki/Wavefront_.obj_file)
+* [```stemkoski``` code on textures](http://stemkoski.github.io/Three.js/#Textures)
