@@ -3,7 +3,8 @@
 ### [Videos](https://www.udacity.com/course/viewer#!/c-cs291/l-124106595)
 ### [Additional material](https://www.udacity.com/wiki/cs291#lesson-8-textures-and-reflections)
 
-## THREE.js crumbs
+## THREE.js crumbs on texture
+
 * [Basic textures](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example41.html)
 * [Bump maps](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example42.html)
 * [UV mapping](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example44.html)
@@ -11,6 +12,8 @@
 * [Canvas texture](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example46.html)
 * [Canvas texture bumpmap](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example47.html)
 * [Video texture](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example48.html)
+
+## THREE.js crumbs on object manupulation
 
 * [Load and save object](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example31.html)
 * [Load and save scene](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example32.html)
