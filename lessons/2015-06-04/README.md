@@ -5,8 +5,8 @@
 
 ## THREE.js crumbs on texture
 
-* [Basic textures](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example41.html)
-* [Bump maps](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example42.html)
+* [Basic textures](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example42.html)
+* [Bump maps](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example43.html)
 * [UV mapping](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example44.html)
 * [Repeat wrapping](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example45.html)
 * [Canvas texture](https://github.com/cvdlab/threejs-crumbs/blob/master/examples/example46.html)
