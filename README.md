@@ -52,7 +52,7 @@
 | ~~37~~ | ~~Thu, May 28~~ | [~~lesson 8: textures and reflections~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | udacity |
 | 38 | ~~Mon, Jun 8~~ | [~~Final project introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-08) | project |
 | 39 | Tue, Jun 9 | [HIJSON introduction](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-09) | project |
-| 40 | Thu, Jun 11 | [project assignment](lessons/2015-05-11a/)  | project |
+| 40 | Thu, Jun 11 | [project assignment](lessons/2015-06-11/projects.md)  | project |
 
 ## Teacher
 
