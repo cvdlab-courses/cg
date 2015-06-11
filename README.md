@@ -53,7 +53,7 @@
 | 37 | Thu, Jun 4 | [lesson 8 - part 2/2: textures and reflections](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-05-28) | udacity |
 | 48 | Mon, Jun 8 | [lesson 9: shader programming](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | udacity |
 | 39 | Tue, Jun 9 | [lesson 10: interaction and animation](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-08) | udacity |
-| 40 | Thu, Jun 11 | project assignment  | project |
+| 40 | Thu, Jun 11 | [project assignment](lessons/2015-05-11a/)  | project |
 
 ## Teacher
 
