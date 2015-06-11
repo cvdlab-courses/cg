@@ -48,10 +48,10 @@
 | ~~34~~ | ~~Tue, May 26~~ | [~~Introduction to solid modeling 2~~](lessons/2015-05-28a/) | ~~theory-3~~ |
 | ~~35~~ | ~~Thu, May 28~~ | [~~Exercises~~](lessons/2015-05-25/) | ~~theory-3~~ |
 | ~~36~~ | ~~Mon, Jun 1~~ | ~~DOFs, configuration space, motion, obstacle avoidance~~ | ~~theory-3~~ |
-| **e3** | **Wed, Jun 3** | **test 3** | **test** |
-| ~~37~~ | ~~Thu, May 28~~ | [~~lesson 8: textures and reflections~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | udacity |
-| 38 | ~~Mon, Jun 8~~ | [~~Final project introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-08) | project |
-| 39 | Tue, Jun 9 | [HIJSON introduction](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-09) | project |
+| ~~**e3**~~ | ~~**Wed, Jun 3**~~ | ~~**test 3**~~ | ~~**test**~~ |
+| ~~37~~ | ~~Thu, May 28~~ | [~~lesson 8: textures and reflections~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-04) | ~~udacity~~ |
+| ~~38~~ | ~~Mon, Jun 8~~ | [~~Final project introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-08) | ~~project~~ |
+| ~~39~~ | ~~Tue, Jun 9~~ | [~~HIJSON introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-09) | ~~project~~ |
 | 40 | Thu, Jun 11 | [project assignment](lessons/2015-06-11/projects.md)  | project |
 
 ## Teacher
