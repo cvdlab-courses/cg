@@ -2,7 +2,7 @@
 
 It is required to compile a report using `markdown` and `pandoc` containing images, links, bibliography, etc.
 
-## Projects asignment
+## Projects assignment
 
 ### 1. Catavitello
 
@@ -46,7 +46,7 @@ It is required to compile a report using `markdown` and `pandoc` containing imag
 * Administration Suite 
 * Medical Library 
 * Medical Records 
-* MeetingRooms 
+* Meeting Rooms 
 * Data Center 
 * Server Room 
 
