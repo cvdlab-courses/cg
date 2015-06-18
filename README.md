@@ -53,7 +53,7 @@
 | ~~38~~ | ~~Mon, Jun 8~~ | [~~Final project introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-08) | ~~project~~ |
 | ~~39~~ | ~~Tue, Jun 9~~ | [~~HIJSON introduction~~](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2015-06-09) | ~~project~~ |
 | ~~40~~ | ~~Thu, Jun 11~~ | [~~project assignment~~](lessons/2015-06-11/projects.md)  | ~~project~~ |
-| 41 | Thu, Jun 11 | [project requirements](lessons/2015-06-18/projects.md)  | project |
+| 41 | Thu, Jun 18 | [project requirements](lessons/2015-06-18)  | project |
 
 ## Teacher
 
