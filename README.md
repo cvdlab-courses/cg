@@ -11,6 +11,7 @@
 | # | date | arguments | category |
 |--:|------|-----------|----------|
 | 1 | Mon, Feb 29 | [Course syllabus](lessons/2016-02-29/lecture-01a.pdf), [Python 1](lessons/2016-02-29/lecture-01b.pdf) | py |
+| 2 | Tue, Mar 01 | [Intro to Python](http://www.dia.uniroma3.it/~spini/python/index.html) | py |
 
 ## Teacher
 
