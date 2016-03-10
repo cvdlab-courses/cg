@@ -15,6 +15,7 @@
 | 3 | Thu, Mar 03 | no lecture | py |
 | 4 | Mon, Mar 07 | [Simplicial complexes](lessons/2016-03-07/) | math |
 | 5 | Tue, Mar 08 | [Literate programming, simplexn module](lessons/2016-03-08/) | coding |
+| 6 | Thu, Mar 10 | [Linear spaces, affine spaces, convex combinations](lessons/2016-03-10/) | math |
 
 ## Teacher
 
