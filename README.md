@@ -16,7 +16,7 @@
 | 4 | Mon, Mar 07 | [Simplicial complexes](lessons/2016-03-07/) | math |
 | 5 | Tue, Mar 08 | [Literate programming, simplexn module](lessons/2016-03-08/) | coding |
 | 6 | Thu, Mar 10 | [Linear spaces, affine spaces, convex combinations](lessons/2016-03-10/) | math |
-| 7 | Mon, Mar 14 | [Basic solid modeling](lessons/2016-03-10/) | math, coding |
+| 7 | Mon, Mar 14 | [Basic solid modeling](lessons/2016-03-14/) | math, coding |
 
 ## Teacher
 
