@@ -18,6 +18,7 @@
 | 6 | Thu, Mar 10 | [Linear spaces, affine spaces, convex combinations](lessons/2016-03-10/) | math |
 | 7 | Mon, Mar 14 | [Basic solid modeling](lessons/2016-03-14/) | math, coding |
 | 8 | Tue, Mar 15 | [2D affine transformations, student projects](lessons/2016-03-15/) | graphics |
+| 9 | Thu, Mar 17 | [Git](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [GitHub](https://github.com) | git |
 
 ## Teacher
 
