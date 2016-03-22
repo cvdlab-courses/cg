@@ -20,6 +20,7 @@
 | 8 | Tue, Mar 15 | [2D affine transformations, student projects](lessons/2016-03-15/) | graphics |
 | 9 | Thu, Mar 17 | [Git](https://github.com/cvdlab/git-crumbs/blob/master/git/Readme.md), [GitHub](https://github.com) | git |
 | 10 | Mon, Mar 21 | [3D affine transformations](lessons/2016-03-21/) | graphics |
+| 11 | Tue, Mar 22 | [3D affine transformations, example of slide generation](lessons/2016-03-22/) | graphics |
 
 ## Teacher
 
