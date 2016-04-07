@@ -22,6 +22,8 @@
 | 10 | Mon, Mar 21 | [3D affine transformations](lessons/2016-03-21/) | graphics |
 | 11 | Tue, Mar 22 | [3D affine transformations, example of slide generation](lessons/2016-03-22/) | graphics |
 | 12 | Thu, Mar 31 | [Hierarchical structures](lessons/2016-03-31/) | graphics |
+| 13 | Tue, Apr 6 | [Hierarchical structures](lessons/2016-04-06/) | graphics |
+| 14 | Thu, Apr 7 | [draft project](lessons/2016-04-07/) | lab |
 
 ## Teacher
 
