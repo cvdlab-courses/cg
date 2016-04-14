@@ -25,7 +25,8 @@
 | 13 | Tue, Apr 6 | [Hierarchical structures](lessons/2016-04-06/) | graphics |
 | 14 | Thu, Apr 7 | [draft project](lessons/2016-04-07/) | lab |
 | 15 | Mon, Apr 11 | [draft project](lessons/2016-04-11/) | lab |
-| 16 | Tue, Apr 12 | [draft project](lessons/2016-04-11/) | lab |
+| 16 | Tue, Apr 12 | [draft project](lessons/2016-04-12/) | lab |
+| 17 | Tue, Apr 12 | [draft project](lessons/2016-04-14/) | lab |
 
 ## Teacher
 
