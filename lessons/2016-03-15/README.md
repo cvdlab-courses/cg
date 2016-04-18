@@ -16,7 +16,7 @@
 *	(266319) [Le Corbusier , Villa Church / Le Corbusier](http://tecnne.com/arquitectura/le-corbusier-ausente-villa-church/)
 *	[Chicago AMA Center, or IBM Plaza](http://www.miessociety.org/legacy/projects/one-ibm-plaza/), by Ludwig Mies van der Rohe
 *	[Johnson Wax Headquarters](http://www.greatbuildings.com/buildings/Johnson_Wax_Building.html)
-*	(451941) [Taliesin West](https://en.wikipedia.org/wiki/Taliesin_West)
+*	(451941) [Neue Nationalgalerie / Ludwig Mies van der Rohe ](http://divisare.com/projects/297030-rory-gardiner-ludwig-mies-van-der-rohe-fabio-candido-neue-nationalgalerie)
 *	[Sydney Opera House / Jørn Utzon](https://en.wikipedia.org/wiki/Sydney_Opera_House)
 
 ##	First steps

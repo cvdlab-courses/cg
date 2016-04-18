@@ -26,7 +26,8 @@
 | 14 | Thu, Apr 7 | [draft project](lessons/2016-04-07/) | lab |
 | 15 | Mon, Apr 11 | [draft project](lessons/2016-04-11/) | lab |
 | 16 | Tue, Apr 12 | [draft project](lessons/2016-04-12/) | lab |
-| 17 | Tue, Apr 12 | [draft project](lessons/2016-04-14/) | lab |
+| 17 | Tue, Apr 14 | [draft project](lessons/2016-04-14/) | lab |
+| 18 | Tue, Apr 18 | [draft project](lessons/2016-04-18/) | lab |
 
 ## Teacher
 
