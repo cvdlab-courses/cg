@@ -6,7 +6,7 @@
   
 ## blender crumbs 02 ([video](https://vimeo.com/164593757))
 
-### scene handling ([video](https://vimeo.com/164594362))
+### scene handling
 
 - `x`: remove object 
 - `g`: translate selected object
@@ -15,7 +15,7 @@
 
 > Note: after `g`, `r` or `s` hit `x`, `y` or `z` to apply the transformation on selected axis.
 
-## blender crumbs 03
+## blender crumbs 03 ([video](https://vimeo.com/164594362))
 
 ### faces separation
 
