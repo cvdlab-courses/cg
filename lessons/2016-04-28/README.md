@@ -4,7 +4,7 @@
 
 ### how to import an `.obj` file
   
-## blender crumbs 02 ([video)(https://vimeo.com/164593757))
+## blender crumbs 02 ([video](https://vimeo.com/164593757))
 
 ### scene handling ([video](https://vimeo.com/164594362))
 
