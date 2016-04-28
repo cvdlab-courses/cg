@@ -31,6 +31,7 @@
 | 19 | Tue, Apr 19 | no lecture | did suspended |
 | 20 | Thu, Apr 21 | [project tools](lessons/2016-04-21/) | lab |
 | 21 | Tue, Apr 26 | [Parametric curves](lessons/2016-04-26/) | modeling |
+| 22 | Thu, Apr 28 | [draft project, blender](lessons/2016-04-28/) | lab |
 
 ## Teacher
 
