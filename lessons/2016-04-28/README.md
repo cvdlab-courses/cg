@@ -22,11 +22,17 @@
 - `tab`: switch mode (`object`/`edit`) for selected object
 - `p`: separate selected faces
 
-## blender crumbs 04
+## blender crumbs 04 ([video](https://vimeo.com/164606772))
 
-## blender crumbs 05
+### simple faces unwrap
 
-## blender crumbs 06
+## blender crumbs 05 ([video](https://vimeo.com/164606916))
+
+### complex faces unwrap with join operation and view change
+
+## blender crumbs 06 ([video](https://vimeo.com/164607066))
+
+### how to export your scene in an `.obj` file
 
 
 ## File resources
