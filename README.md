@@ -30,8 +30,9 @@
 | 18 | Mon, Apr 18 | [draft project](lessons/2016-04-18/) | lab |
 | 19 | Tue, Apr 19 | no lecture | did suspended |
 | 20 | Thu, Apr 21 | [project tools](lessons/2016-04-21/) | lab |
-| 21 | Tue, Apr 26 | [Parametric curves](lessons/2016-04-26/) | modeling |
+| 21 | Tue, Apr 26 | [Parametric curves, Hermite](lessons/2016-04-26/) | modeling |
 | 22 | Thu, Apr 28 | [draft project, blender crumbs](lessons/2016-04-28/) | lab |
+| 23 | Mon, May 02 | [Parametric curves, Bezier](lessons/2016-05-02/) | modeling |
 
 ## Teacher
 
