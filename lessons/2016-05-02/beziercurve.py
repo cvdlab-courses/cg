@@ -63,7 +63,12 @@ def Intervals(a):
 
 BaseHermite:(Intervals:1:20)
 
-VIEW(MAP(BEZIER(S1)([[-0,0],[1,0],[1,1],[2,1],[3,1]]))(INTERVALS(1)(32)))
+points = [[-0,0],[1,0],[1,1],[2,1],[3,1]]
+VIEW(STRUCT([
+			 POLYLINE(points),
+			 MAP(BEZIER(S1)(points))(INTERVALS(1)(32))
+			 ])
+	 )
 
 C0 = BEZIER(S1)([[0,0,0],[10,0,0]])
 C1 = BEZIER(S1)([[0,2,0],[8,3,0],[9,2,0]])
@@ -87,20 +92,21 @@ BaseHermite = [h1,h2,h3,h4]
 def graph(function):
 	def graph0(domain):
 		u = lambda p: p[0]
-		hpc = MAP([u,COMP([function,u])])(domain)
+		hpc = MAP([u, COMP([function,u])])(domain)
 		return hpc
 	return graph0
 	
 VIEW(graph(h1)(INTERVALS(1)(32)))
 
-VIEW(STRUCT(CONS(AA(graph)(BaseHermite))(INTERVALS(1)(32))+[SKEL_1(CUBOID([1,1]))]))
+dom = INTERVALS(1)(32)
+VIEW(STRUCT(CONS(AA(graph)(BaseHermite))(dom))+[SKEL_1(CUBOID([1,1]))])
 	
 
 def bezier(n):
 	def bezier0(k):
 		def bezier1(p):
 			u = p[0]
-			return CHOOSE([3,2])*u**k*(1-u)**(n-k)
+			return CHOOSE([n,k])*u**k*(1-u)**(n-k)
 		return bezier1
 	return bezier0
 
@@ -108,6 +114,9 @@ bezier(2)(1)([0])
 
 AA(bezier(2))([0,1,2])
 CONS(AA(bezier(2))([0,1,2]))([0.5])
+
+def test(n,u):
+    return SUM(CONS(AA(bezier(n))(range(n+1)))([u]))
 
 def bezierBasis(n):
 	return AA(bezier(n))(range(n+1))

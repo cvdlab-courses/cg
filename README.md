@@ -33,6 +33,7 @@
 | 21 | Tue, Apr 26 | [Parametric curves, Hermite](lessons/2016-04-26/) | modeling |
 | 22 | Thu, Apr 28 | [draft project, blender crumbs](lessons/2016-04-28/) | lab |
 | 23 | Mon, May 02 | [Parametric curves, Bezier](lessons/2016-05-02/) | modeling |
+| 24 | Tue, May 03 | [Transfinite Bezier](lessons/2016-05-03/) | modeling |
 
 ## Teacher
 
