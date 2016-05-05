@@ -8,3 +8,5 @@
 [`demo.obj`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-04-28/demo.obj)
 
 ## Baking service [tokens](https://docs.google.com/spreadsheets/d/1S5IoO5g6nnAv3IwqtdPwpIFULszV8XmW5BWhH1tCJ6I/edit?usp=sharing)
+
+- [tokens](https://docs.google.com/spreadsheets/d/1S5IoO5g6nnAv3IwqtdPwpIFULszV8XmW5BWhH1tCJ6I/edit?usp=sharing)
