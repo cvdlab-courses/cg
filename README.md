@@ -28,12 +28,13 @@
 | 16 | Tue, Apr 12 | [draft project](lessons/2016-04-12/) | lab |
 | 17 | Tue, Apr 14 | [draft project](lessons/2016-04-14/) | lab |
 | 18 | Mon, Apr 18 | [draft project](lessons/2016-04-18/) | lab |
-| 19 | Tue, Apr 19 | no lecture | did suspended |
+| 19 | Tue, Apr 19 | no lecture | cancelled |
 | 20 | Thu, Apr 21 | [project tools](lessons/2016-04-21/) | lab |
 | 21 | Tue, Apr 26 | [Parametric curves, Hermite](lessons/2016-04-26/) | modeling |
 | 22 | Thu, Apr 28 | [draft project, blender crumbs](lessons/2016-04-28/) | lab |
 | 23 | Mon, May 02 | [Parametric curves, Bezier](lessons/2016-05-02/) | modeling |
 | 24 | Tue, May 03 | [Transfinite Bezier](lessons/2016-05-03/) | modeling |
+| 25 | Thu, May, 05| [Bak3ditor training](lessons/2016-05-05/) | lab |
 
 ## Teacher
 
