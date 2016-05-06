@@ -20,6 +20,9 @@ def bezier(points):
     return bezier0
 
 
+BEZIER(S1)
+
+
 points1 = [[0,0],[1,1]]
 points2 = [[0,0],[1,0],[1,1]]
 points3 = [[0,0],[1,0],[0,1],[1,1]]
@@ -31,7 +34,7 @@ VIEW(MAP(bezier(points2))(INTERVALS(1)(32)))
 
 VIEW(STRUCT(
             [POLYLINE(points3),
-             MAP(bezier(points3))(INTERVALS(1)(32))]
+             MAP(BEZIER(S1)(points3))(INTERVALS(1)(32))]
             ))
 
 VIEW(STRUCT(
