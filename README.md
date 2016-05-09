@@ -34,7 +34,8 @@
 | 22 | Thu, Apr 28 | [draft project, blender crumbs](lessons/2016-04-28/) | lab |
 | 23 | Mon, May 02 | [Parametric curves, Bezier](lessons/2016-05-02/) | modeling |
 | 24 | Tue, May 03 | [Transfinite Bezier](lessons/2016-05-03/) | modeling |
-| 25 | Thu, May, 05| [Bak3ditor training](lessons/2016-05-05/) | lab |
+| 25 | Thu, May, 05| [Bak3ditor training, plasm2lar mapping](lessons/2016-05-05/) | lab |
+| 26 | Mon, May, 09| [Parametric surfaces](lessons/2016-05-09/) | modeling |
 
 ## Teacher
 
