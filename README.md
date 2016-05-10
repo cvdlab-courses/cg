@@ -35,7 +35,8 @@
 | 23 | Mon, May 02 | [Parametric curves, Bezier](lessons/2016-05-02/) | modeling |
 | 24 | Tue, May 03 | [Transfinite Bezier](lessons/2016-05-03/) | modeling |
 | 25 | Thu, May, 05| [Bak3ditor training, plasm2lar mapping](lessons/2016-05-05/) | lab |
-| 26 | Mon, May, 09| [Parametric surfaces](lessons/2016-05-09/) | modeling |
+| 26 | Mon, May, 09| [Parametric surfaces, special forms](lessons/2016-05-09/) | modeling |
+| 27 | Tue, May, 10| [Parametric surfaces, tensor product](lessons/2016-05-10/) | modeling |
 
 ## Teacher
 
