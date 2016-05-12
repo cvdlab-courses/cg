@@ -5,7 +5,10 @@
 - [explorer](http://cvdlab.github.io/bak3d-explorer/)
 
 ## File resources
-[`demo2levels.json`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/demo2levels.json)
+
+- [`demo2levels.json`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/demo2levels.json)
+- [`window_1`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/window_1)
+- [`window_2`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/window_2)
 
 ## Baking service [tokens](https://docs.google.com/spreadsheets/d/1S5IoO5g6nnAv3IwqtdPwpIFULszV8XmW5BWhH1tCJ6I/edit?usp=sharing)
 
