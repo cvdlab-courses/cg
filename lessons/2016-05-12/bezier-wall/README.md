@@ -18,5 +18,5 @@ VIEW(STRUCT([wall,S(1)(-1),wall]))
 ```
 Tha generated models are the following:
 
-![single wall](wall.png "single wall" )
-![single wall](wall2.png "double instance of wall" )
+![single wall](wall.png "single wall" | width=200)
+![single wall](wall2.png "double instance of wall" | width=200)
