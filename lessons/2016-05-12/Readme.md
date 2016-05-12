@@ -11,8 +11,8 @@
 - [`demo2levels.json`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/demo2levels.json)
 
 ### Window models
-- [`window_1`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/window_1)
-- [`window_2`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/window_2)
+- [`window_1`](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2016-05-12/window_1)
+- [`window_2`](https://github.com/cvdlab-cg/lessons/tree/master/lessons/2016-05-12/window_2)
 
 ### Skybox
 - [`xneg`](https://raw.githubusercontent.com/cvdlab-cg/lessons/master/lessons/2016-05-12/skybox/xneg.jpg)
