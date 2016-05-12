@@ -26,4 +26,8 @@
 
 - [tokens](https://docs.google.com/spreadsheets/d/1S5IoO5g6nnAv3IwqtdPwpIFULszV8XmW5BWhH1tCJ6I/edit?usp=sharing)
 
+## Baking result address
+
+- `http:/cvd.dia.uniroma3.it:4484/{{token}}/scene.json`
+
 ## [Bezier walls modelling](bezier-wall)
