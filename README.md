@@ -37,6 +37,7 @@
 | 25 | Thu, May, 05| [Bak3ditor training, plasm2lar mapping](lessons/2016-05-05/) | lab |
 | 26 | Mon, May, 09| [Parametric surfaces, special forms](lessons/2016-05-09/) | modeling |
 | 27 | Tue, May, 10| [Parametric surfaces, tensor product](lessons/2016-05-10/) | modeling |
+| 28 | Thu, May, 12| [Bak3ditor training](lessons/2016-05-12/) | lab |
 
 ## Teacher
 
