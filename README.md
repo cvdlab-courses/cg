@@ -38,6 +38,7 @@
 | 26 | Mon, May, 09| [Parametric surfaces, special forms](lessons/2016-05-09/) | modeling |
 | 27 | Tue, May, 10| [Parametric surfaces, tensor product](lessons/2016-05-10/) | modeling |
 | 28 | Thu, May, 12| [Bak3ditor training, Bezier "walls"](lessons/2016-05-12/) | lab |
+| 29 | Thu, May, 19| [Bak3ditor training](lessons/2016-05-19/) | lab |
 
 ## Teacher
 
