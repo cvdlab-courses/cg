@@ -40,6 +40,8 @@
 | 28 | Thu, May, 12| [Bak3ditor training, Bezier "walls"](lessons/2016-05-12/) | lab |
 | 29 | Mon, May, 16| second profit test | lab |
 | 30 | Tue, May, 17| [Intro to Solid Modeling](lessons/2016-05-17/) | modeling |
+| 31 | Thu, May, 19| [Bak3ditor training](lessons/2016-05-19/) | lab |
+| 32 | Mon, May, 23| [Solid Modeling, boundary representations](lessons/2016-05-17/) | modeling |
 
 ## Teacher
 
