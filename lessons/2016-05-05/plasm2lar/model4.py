@@ -18,13 +18,13 @@ H = INTERVALS(h)(1)
 
 """ duplex apartment -- first draft """
 
-lines = lines2lines(project_path + "up-level.lines")
+lines = lines2lines("up-level.lines")
 V,EV = lines2lar(lines,True)
 upLevel = STRUCT(MKPOLS((V,EV)))
-#VIEW(upLevel)
+VIEW(upLevel)
 upLevel = OFFSET([.0025,.0025])(upLevel)
-#VIEW(upLevel)
-#VIEW(SKEL_1(upLevel))
+VIEW(upLevel)
+VIEW(SKEL_1(upLevel))
 upWalls = PROD([ upLevel, H ])
 VIEW(upWalls)
 VIEW(SKEL_2(upWalls))
@@ -67,5 +67,5 @@ VIEW(STRUCT(MKPOLS((V,EV))))
 BF = boundaryCells(CV,FV)
 VIEW(STRUCT(MKPOLS((V,[FV[f] for f in BF]))))
 
-
+struct2Marshal(Struct([V,FV,EV]))
 
