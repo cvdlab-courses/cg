@@ -42,6 +42,7 @@
 | 30 | Tue, May, 17| [Intro to Solid Modeling](lessons/2016-05-17/) | modeling |
 | 31 | Thu, May, 19| [Bak3ditor training](lessons/2016-05-19/) | lab |
 | 32 | Mon, May, 23| [Solid Modeling, boundary representations](lessons/2016-05-17/) | modeling |
+| 33 | Tue, May, 24| [Boundary representations, face-based](lessons/2016-05-17/) | modeling |
 
 ## Teacher
 
