@@ -43,6 +43,8 @@
 | 31 | Thu, May, 19| [Bak3ditor training](lessons/2016-05-19/) | lab |
 | 32 | Mon, May, 23| [Solid Modeling, boundary representations](lessons/2016-05-17/) | modeling |
 | 33 | Tue, May, 24| [Boundary representations, face-based](lessons/2016-05-17/) | modeling |
+| 34 | Thu, May, 26| [Pipeline 3D, camera model](lessons/2016-05-26/) | graphics |
+| 35 | Mon, May, 30| [brute-force line intersection](lessons/2016-05-30/) | coding |
 
 ## Teacher
 
