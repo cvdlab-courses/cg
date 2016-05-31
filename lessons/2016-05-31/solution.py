@@ -13,12 +13,8 @@ lines = [
 
 def bruteForceIntersect(lines):
 	n = len(lines)
-	verts = list(set([tuple(eval(vcode(4)(v)))
-					  for line in lines for v in line]))
-	vertdict = OrderedDict([(key,k) for k,key in enumerate(verts)])
-	EV = [[vertdict[tuple(eval(vcode(4)(p)))]
-		   for p in line] for line in lines]
-	
+	#transform data
+	lines = [[eval(vcode(4)(p)) for p in line] for line in lines]
 	
 	linedata =[[[a,b,c,d] for k,(c,d) in enumerate(lines) if k!=h ]
 		for h,(a,b) in enumerate(lines)]

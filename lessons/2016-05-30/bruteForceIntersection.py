@@ -12,10 +12,13 @@ lines = [
  [[-0.10000000000000013, -1.1], [-0.1, 0.0]]]
 
 def bruteForceIntersect(lines):
-    n = len(lines)
-    verts = list(set([tuple(eval(vcode(4)(v))) for line in lines for v in line]))
+	n = len(lines)
+	#transform data
+	lines = [[eval(vcode(4)(p)) for p in line] for line in lines]
+	#end transform
+	verts = list(set([tuple(v) for line in lines for v in line]))
     vertdict = OrderedDict([(key,k) for k,key in enumerate(verts)])
-    EV = [[vertdict[tuple(eval(vcode(4)(p)))] for p in line] for line in lines]
+	EV = [[vertdict[tuple(p)] for p in line] for line in lines]
     pairs = [(h,k) for h in range(n) for k in range(h+1,n)]
     linepairs = [[lines[h],lines[k]] for h,k in pairs]
     # prepare data for line pairs
