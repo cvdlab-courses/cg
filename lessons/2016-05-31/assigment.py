@@ -1,21 +1,24 @@
 lines = [
  [[0.0, 0.0], [-0.1, 0.0]],
- [[0.0, 0.0], [-1.221245327087672e-16, -1.1]],
- [[-1.1, 2.220446049250313e-16], [-1.1000000000000003, -1.0999999999999999]],
- [[-1.221245327087672e-16, -1.1], [-0.10000000000000013, -1.1]],
- [[-1.1000000000000003, -1.0999999999999999],
-  [-1.1000000000000003, -0.9999999999999999]],
- [[-1.1000000000000003, -1.0999999999999999], [-1.221245327087672e-16, -1.1]],
- [[-1.1000000000000003, -0.9999999999999999], [-1.1102230246251564e-16, -1.0]],
- [[0.0, 0.0], [-1.1, 2.220446049250313e-16]],
- [[-1.221245327087672e-16, -1.1], [-1.1102230246251564e-16, -1.0]],
- [[-0.10000000000000013, -1.1], [-0.1, 0.0]]]
+ [[0.0, 0.0], [0, -1.1]],
+ [[-1.1, 0], [-1.100000000000000, -1.0999999999999999]],
+ [[0, -1.1], [-0.100000000000000, -1.1]],
+ [[-1.100000000000000, -1.0999999999999999],
+  [-1.100000000000000, -0.9999999999999999]],
+ [[-1.100000000000000, -1.0999999999999999], [0, -1.1]],
+ [[-1.100000000000000, -0.9999999999999999], [0, -1.0]],
+ [[0.0, 0.0], [-1.1, 0]],
+ [[0, -1.1], [0, -1.0]],
+ [[-0.100000000000000, -1.1], [-0.1, 0.0]]]
 
 def bruteForceIntersect(lines):
     n = len(lines)
-    verts = list(set([tuple(eval(vcode(4)(v))) for line in lines for v in line]))
-    vertdict = OrderedDict([(key,k) for k,key in enumerate(verts)])
-    EV = [[vertdict[tuple(eval(vcode(4)(p)))] for p in line] for line in lines]
+    #transform data
+    lines = [[eval(vcode(4)(p)) for p in line] for line in lines]
+    #end transform
+    verts = list(set([tuple(v) for line in lines for v in line]))
+    vertdict = OrderedDict([(key,k) for k,key in enumerate(verts)])    
+    EV = [[vertdict[tuple(p)] for p in line] for line in lines]
     pairs = [(h,k) for h in range(n) for k in range(h+1,n)]
     linepairs = [[lines[h],lines[k]] for h,k in pairs]
     # prepare data for line pairs
@@ -34,8 +37,8 @@ def bruteForceIntersect(lines):
     newverts = [ tuple(AA(COMP([tuple,eval,vcode(4)]))([ 
         (a*mat(p1)+(1-a)*mat(p2)).tolist()[0], 
         [a,b,h,k] ]))
-        for (a,b,(h,k)),[[p1,p2],[q1,q2]] in zip(zip(alpha,beta,pairs),linepairs) 
-        if 0<=a<=1 and 0<=b<=1 ]
+        for a,b,(h,k),[[p1,p2],[q1,q2]] in zip(alpha,beta,pairs,linepairs)
+        if 0<=a<=1 and 0<=b<=1]
     for vert,datum in newverts:
        vdata[vert] += [datum]
     for k,(key,datum) in enumerate(vdata.items()):
@@ -58,4 +61,3 @@ def bruteForceIntersect(lines):
     edges = [[[v,part[k+1]] for k,v in enumerate(part[:-1])] for part in edgeVerts]
     EV = sorted(set(AA(tuple)(AA(sorted)(CAT(edges)))))
     return V,EV
-@}

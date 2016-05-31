@@ -45,6 +45,7 @@
 | 33 | Tue, May, 24| [Boundary representations, face-based](lessons/2016-05-17/) | modeling |
 | 34 | Thu, May, 26| [Pipeline 3D, camera model](lessons/2016-05-26/) | graphics |
 | 35 | Mon, May, 30| [brute-force line intersection](lessons/2016-05-30/) | coding |
+| 36 | Mon, May, 30| [home assignment](lessons/2016-05-31/) | coding |
 
 ## Teacher
 
