@@ -68,3 +68,8 @@
 
 ### [test 1](test-1/readme.md)
 ### [test 2](test-2/readme.md)
+
+## Final projects
+
+- [Andrea Di Fonzo](https://github.com/dipo93/cg2015-final-project)
+- [Stefano Perrone](https://github.com/Stepex90/cg2015-final-project)
